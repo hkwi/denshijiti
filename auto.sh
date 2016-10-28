@@ -12,7 +12,6 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
 fi
 
 git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
-git fetch --unshallow
 
 git config user.name "Hiroaki KAWAI Trais"
 git config user.email "hiroaki.kawai@gmail.com"
