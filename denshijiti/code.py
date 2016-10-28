@@ -239,7 +239,7 @@ for c in x["団体コード"].apply(get_code):
 
 # In[12]:
 
-with open("docs/code.ttl", "wb") as f:
+with open("code.ttl", "wb") as f:
     f.write(g.serialize(format="turtle"))
 
 
