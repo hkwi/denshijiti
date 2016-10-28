@@ -8126,31 +8126,60 @@ jiti:C45201-20060101 a jitis:StandardAreaCode ;
     dcterms:identifier "45201" .
 
 [] a jitis:Change ;
-    jitis:new jiti:C23207-20100201 ;
-    jitis:old jiti:C23207-20060201,
-        jiti:C23603-19700401 ;
-    dcterms:issue "2010-02-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C23220-20050401 ;
-    jitis:old jiti:C23220-19800801,
-        jiti:C23401-19830228,
-        jiti:C23402-20040201 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C08205-20051001 ;
-    jitis:old jiti:C08205-19931001,
-        jiti:C08463-19931001 ;
+    jitis:new jiti:C31372-20051001 ;
+    jitis:old jiti:C31366-19720501,
+        jiti:C31367-19880210 ;
     dcterms:issue "2005-10-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C07205-20051107 ;
-    jitis:old jiti:C07205-20050819,
-        jiti:C07462-20050819,
-        jiti:C07463-19950911,
-        jiti:C07467-19930501 ;
-    dcterms:issue "2005-11-07"^^xsd:date .
+    jitis:new jiti:C20590-20051001 ;
+    jitis:old jiti:C20584-19700401,
+        jiti:C20585-19800601 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C28201-20060327 ;
+    jitis:old jiti:C28201-19960401,
+        jiti:C28421-19700401,
+        jiti:C28422-19830201,
+        jiti:C28444-19700401,
+        jiti:C28522-19700401 ;
+    dcterms:issue "2006-03-27"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C39210-20050410 ;
+    jitis:old jiti:C39207-20011116,
+        jiti:C39426-19700401 ;
+    dcterms:issue "2005-04-10"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C15206-20050501 ;
+    jitis:old jiti:C15206-20030707,
+        jiti:C15308-19900921,
+        jiti:C15309-19910313 ;
+    dcterms:issue "2005-05-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C47214-20051001 ;
+    jitis:old jiti:C47206-20001020,
+        jiti:C47371-19720607,
+        jiti:C47372-20001020,
+        jiti:C47373-19960201,
+        jiti:C47374-19820401 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C18209-20051001 ;
+    jitis:old jiti:C18203-19840501,
+        jiti:C18381-19840501 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C08234-20051011 ;
+    jitis:old jiti:C08401-19940901,
+        jiti:C08402-19950601,
+        jiti:C08403-19810601 ;
+    dcterms:issue "2005-10-11"^^xsd:date .
 
 [] a jitis:Change ;
     jitis:new jiti:C08232-20050801 ;
@@ -8158,310 +8187,132 @@ jiti:C45201-20060101 a jitis:StandardAreaCode ;
     dcterms:issue "2005-08-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C41201-20071001 ;
-    jitis:old jiti:C41201-20051001,
-        jiti:C41302-19990610,
-        jiti:C41303-19930920,
-        jiti:C41304-19770915 ;
-    dcterms:issue "2007-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C03207-20060306 ;
-    jitis:old jiti:C03207-19700401,
-        jiti:C03504-19700401 ;
-    dcterms:issue "2006-03-06"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C40610-20060306 ;
-    jitis:old jiti:C40603-19700401,
-        jiti:C40606-20021203,
-        jiti:C40607-19800401 ;
-    dcterms:issue "2006-03-06"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C15212-20080401 ;
-    jitis:old jiti:C15212-20030326,
-        jiti:C15582-20040327,
-        jiti:C15583-20040327,
-        jiti:C15584-19751201,
-        jiti:C15585-19700401 ;
-    dcterms:issue "2008-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C45201-20060101 ;
-    jitis:old jiti:C45201-20060101,
-        jiti:C45302-19980914,
-        jiti:C45381-20020130 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C08203-20060220 ;
-    jitis:old jiti:C08203-19880901,
-        jiti:C08465-19871201 ;
-    dcterms:issue "2006-02-20"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C30392-20050501 ;
-    jitis:old jiti:C30384-19700401,
-        jiti:C30385-19700401,
-        jiti:C30386-19700401 ;
-    dcterms:issue "2005-05-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C42202-20050401 ;
-    jitis:old jiti:C42202-20010401,
-        jiti:C42392-19700401,
-        jiti:C42393-19700401 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C42213-20051011 ;
-    jitis:old jiti:C42362-19700401,
-        jiti:C42363-19700401,
-        jiti:C42364-19830901,
-        jiti:C42365-19830901,
-        jiti:C42366-19700401,
-        jiti:C42367-19700401,
-        jiti:C42368-19700401 ;
-    dcterms:issue "2005-10-11"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C05349-20060327 ;
-    jitis:old jiti:C05343-19700401,
-        jiti:C05347-19851201 ;
-    dcterms:issue "2006-03-27"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C37201-20050926 ;
-    jitis:old jiti:C37201-20021204,
-        jiti:C37361-19700401 ;
-    dcterms:issue "2005-09-26"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C01346-20051001 ;
-    jitis:old jiti:C01346-19700401,
-        jiti:C01365-19700401 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C23238-20120104 ;
-    jitis:old jiti:C23304-19880701 ;
-    dcterms:issue "2012-01-04"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C30207-20051001 ;
-    jitis:old jiti:C30207-19700401,
-        jiti:C30425-19700401 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C41210-20060320 ;
-    jitis:old jiti:C41321-19940922,
-        jiti:C41322-19950608,
-        jiti:C41325-19811201 ;
+    jitis:new jiti:C01514-20060320 ;
+    jitis:old jiti:C01514-19700401,
+        jiti:C01515-19700401 ;
     dcterms:issue "2006-03-20"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C01208-20060305 ;
-    jitis:old jiti:C01208-19700401,
-        jiti:C01548-19700401,
-        jiti:C01551-19700401,
-        jiti:C01553-19700401 ;
-    dcterms:issue "2006-03-05"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C28227-20050401 ;
-    jitis:old jiti:C28521-19700401,
-        jiti:C28523-19700401,
-        jiti:C28524-19700401,
-        jiti:C28525-19700401 ;
+    jitis:new jiti:C28226-20050401 ;
+    jitis:old jiti:C28681-19700401,
+        jiti:C28682-19970901,
+        jiti:C28683-19700401,
+        jiti:C28684-19700401,
+        jiti:C28686-19970901 ;
     dcterms:issue "2005-04-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C24201-20060101 ;
-    jitis:old jiti:C24201-20000615,
-        jiti:C24213-20001101,
-        jiti:C24381-20000615,
-        jiti:C24382-19850401,
-        jiti:C24383-19911210,
-        jiti:C24384-19850401,
-        jiti:C24402-19700401,
-        jiti:C24403-19991215,
-        jiti:C24404-20001101,
-        jiti:C24406-19700401 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
+    jitis:new jiti:C27140-20060401,
+        jiti:C27141-20060401,
+        jiti:C27142-20060401,
+        jiti:C27143-20060401,
+        jiti:C27144-20060401,
+        jiti:C27145-20060401,
+        jiti:C27146-20060401,
+        jiti:C27147-20060401 ;
+    jitis:old jiti:C27201-20050201 ;
+    dcterms:issue "2006-04-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C23207-20080115 ;
-    jitis:old jiti:C23207-20060201,
-        jiti:C23601-19700401,
-        jiti:C23604-19880401 ;
-    dcterms:issue "2008-01-15"^^xsd:date .
+    jitis:new jiti:C36204-20060320 ;
+    jitis:old jiti:C36204-19700401,
+        jiti:C36361-19961126,
+        jiti:C36362-19700401 ;
+    dcterms:issue "2006-03-20"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C23202-20060101 ;
-    jitis:old jiti:C23202-20040401,
-        jiti:C23502-19920331 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C22209-20050505 ;
-    jitis:old jiti:C22209-19771201,
-        jiti:C22425-20010604 ;
-    dcterms:issue "2005-05-05"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C22213-20050401 ;
-    jitis:old jiti:C22213-19931101,
-        jiti:C22442-19911001,
-        jiti:C22447-19991101 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C35203-20051001 ;
-    jitis:old jiti:C35203-20000531,
-        jiti:C35381-19700401,
-        jiti:C35401-20000531,
-        jiti:C35402-19971001,
-        jiti:C35403-19961030 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C46220-20051107 ;
-    jitis:old jiti:C46211-19760714,
-        jiti:C46341-19700401,
-        jiti:C46342-19760714,
-        jiti:C46343-19911119,
-        jiti:C46368-19930719 ;
-    dcterms:issue "2005-11-07"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C11365-20051001 ;
-    jitis:old jiti:C11365-19700401,
-        jiti:C11366-19700401 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C30428-20050401 ;
-    jitis:old jiti:C30407-19700401,
-        jiti:C30423-19700401 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C46505-20071001 ;
-    jitis:old jiti:C46503-19700401,
-        jiti:C46504-19700401 ;
-    dcterms:issue "2007-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C15202-20050401 ;
-    jitis:old jiti:C15202-20050319,
-        jiti:C15364-20050326,
-        jiti:C15401-19970222,
-        jiti:C15402-20011117,
-        jiti:C15421-19821126,
-        jiti:C15502-19700401 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C05204-20050620 ;
-    jitis:old jiti:C05204-20021210,
-        jiti:C05322-20021210,
-        jiti:C05325-19890901 ;
-    dcterms:issue "2005-06-20"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C46224-20081101 ;
-    jitis:old jiti:C46209-20020624,
-        jiti:C46421-20020624 ;
-    dcterms:issue "2008-11-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C18201-20060201 ;
-    jitis:old jiti:C18201-20020515,
-        jiti:C18302-19700401,
-        jiti:C18424-19700401,
-        jiti:C18426-20020515 ;
-    dcterms:issue "2006-02-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C43468-20051001 ;
-    jitis:old jiti:C43464-19810901,
-        jiti:C43465-19781201 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C26465-20060301 ;
-    jitis:old jiti:C26461-19700401,
-        jiti:C26462-19700401,
-        jiti:C26464-19700401 ;
-    dcterms:issue "2006-03-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C10203-20050613 ;
-    jitis:old jiti:C10203-19700401,
-        jiti:C10307-19970701,
-        jiti:C10308-19700401 ;
-    dcterms:issue "2005-06-13"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C01235-20051001 ;
-    jitis:old jiti:C01235-19960901,
-        jiti:C01305-19700401,
-        jiti:C01306-19700401 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C01601-20060301 ;
-    jitis:old jiti:C01601-19700401,
-        jiti:C01603-19700401 ;
-    dcterms:issue "2006-03-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C03216-20140101 ;
-    jitis:old jiti:C03305-19700401 ;
-    dcterms:issue "2014-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C11232-20100323 ;
-    jitis:old jiti:C11232-19920801,
-        jiti:C11446-20100301,
-        jiti:C11461-19750601,
-        jiti:C11462-19700401 ;
+    jitis:new jiti:C45201-20100323 ;
+    jitis:old jiti:C45201-20060101,
+        jiti:C45301-20020130 ;
     dcterms:issue "2010-03-23"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C01210-20060327 ;
-    jitis:old jiti:C01210-19700401,
-        jiti:C01421-19700401,
-        jiti:C01422-19700401 ;
-    dcterms:issue "2006-03-27"^^xsd:date .
+    jitis:new jiti:C34213-20051103 ;
+    jitis:old jiti:C34213-20051103,
+        jiti:C34327-19700401 ;
+    dcterms:issue "2005-11-03"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C30366-20060101 ;
-    jitis:old jiti:C30363-19700401,
-        jiti:C30364-19700401,
-        jiti:C30365-19700401 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
+    jitis:new jiti:C11214-20051001 ;
+    jitis:old jiti:C11214-20030101,
+        jiti:C11468-19700401 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C21204-20060123 ;
-    jitis:old jiti:C21204-19700401,
-        jiti:C21541-19700401 ;
-    dcterms:issue "2006-01-23"^^xsd:date .
+    jitis:new jiti:C46218-20051107 ;
+    jitis:old jiti:C46212-19850327,
+        jiti:C46444-20031014,
+        jiti:C46445-20031014,
+        jiti:C46448-19700401,
+        jiti:C46449-19700401,
+        jiti:C46450-19851220,
+        jiti:C46451-19981218 ;
+    dcterms:issue "2005-11-07"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C07212-20060101 ;
-    jitis:old jiti:C07206-19700401,
-        jiti:C07562-19700401,
-        jiti:C07563-19700401 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
+    jitis:new jiti:C43369-20060301 ;
+    jitis:old jiti:C43365-20030601,
+        jiti:C43366-20030601 ;
+    dcterms:issue "2006-03-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C28215-20051024 ;
-    jitis:old jiti:C28215-19990301,
-        jiti:C28321-19990301 ;
-    dcterms:issue "2005-10-24"^^xsd:date .
+    jitis:new jiti:C47213-20050401 ;
+    jitis:old jiti:C47202-19820101,
+        jiti:C47203-19990610,
+        jiti:C47322-20010412,
+        jiti:C47323-20010412 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C04205-20090901 ;
+    jitis:old jiti:C04205-20060331,
+        jiti:C04603-19930201 ;
+    dcterms:issue "2009-09-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C01559-20091005 ;
+    jitis:old jiti:C01558-19700401,
+        jiti:C01559-19700401 ;
+    dcterms:issue "2009-10-05"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C45203-20070331 ;
+    jitis:old jiti:C45203-20060220,
+        jiti:C45427-19721101 ;
+    dcterms:issue "2007-03-31"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C30341-20051001 ;
+    jitis:old jiti:C30341-19700401,
+        jiti:C30345-19700401 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C15100-20070401,
+        jiti:C15101-20070401,
+        jiti:C15102-20070401,
+        jiti:C15103-20070401,
+        jiti:C15104-20070401,
+        jiti:C15105-20070401,
+        jiti:C15106-20070401,
+        jiti:C15107-20070401,
+        jiti:C15108-20070401 ;
+    jitis:old jiti:C15201-20051010 ;
+    dcterms:issue "2007-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C28586-20051001 ;
+    jitis:old jiti:C28582-19900314,
+        jiti:C28584-19900314 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C20217-20050401 ;
+    jitis:old jiti:C20217-19910110,
+        jiti:C20301-19850901,
+        jiti:C20322-19880622,
+        jiti:C20325-19850901 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
 
 [] a jitis:Change ;
     jitis:new jiti:C28228-20060320 ;
@@ -8471,117 +8322,40 @@ jiti:C45201-20060101 a jitis:StandardAreaCode ;
     dcterms:issue "2006-03-20"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C03205-20060101 ;
-    jitis:old jiti:C03205-20020301,
-        jiti:C03341-19750601,
-        jiti:C03342-20020301,
-        jiti:C03361-19741001 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C26100-20050401 ;
-    jitis:old jiti:C26100-20041220,
-        jiti:C26381-19700401 ;
+    jitis:new jiti:C23203-20050401 ;
+    jitis:old jiti:C23203-20020401,
+        jiti:C23218-19830228,
+        jiti:C23381-19780331 ;
     dcterms:issue "2005-04-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C15202-20100331 ;
-    jitis:old jiti:C15202-20050401,
-        jiti:C15441-19730501 ;
-    dcterms:issue "2010-03-31"^^xsd:date .
+    jitis:new jiti:C22226-20051011 ;
+    jitis:old jiti:C22422-20040322,
+        jiti:C22423-20010604 ;
+    dcterms:issue "2005-10-11"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C11214-20051001 ;
-    jitis:old jiti:C11214-20030101,
-        jiti:C11468-19700401 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C42201-20060104 ;
-    jitis:old jiti:C42201-20050104,
-        jiti:C42309-19700401 ;
-    dcterms:issue "2006-01-04"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C14150-20100401,
-        jiti:C14151-20100401,
-        jiti:C14152-20100401,
-        jiti:C14153-20100401 ;
-    jitis:old jiti:C14209-20060320 ;
-    dcterms:issue "2010-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C15201-20051010 ;
-    jitis:old jiti:C15201-20050321,
-        jiti:C15345-20030312 ;
-    dcterms:issue "2005-10-10"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C09411-20051001 ;
-    jitis:old jiti:C09403-19700401,
-        jiti:C09404-19891201 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C43369-20060301 ;
-    jitis:old jiti:C43365-20030601,
-        jiti:C43366-20030601 ;
-    dcterms:issue "2006-03-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C44213-20051001 ;
-    jitis:old jiti:C44362-19790301,
-        jiti:C44363-19700401,
-        jiti:C44364-19810101 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C34205-20060110 ;
-    jitis:old jiti:C34205-20050328,
-        jiti:C34206-19700401,
-        jiti:C34430-19700401 ;
-    dcterms:issue "2006-01-10"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C18210-20060320 ;
-    jitis:old jiti:C18361-19940303,
-        jiti:C18364-19941027,
-        jiti:C18365-20050113,
-        jiti:C18366-20050113 ;
+    jitis:new jiti:C07368-20060320 ;
+    jitis:old jiti:C07361-19700401,
+        jiti:C07363-19700401,
+        jiti:C07365-19700401,
+        jiti:C07366-19700401 ;
     dcterms:issue "2006-03-20"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C23236-20100104,
-        jiti:C23521-20100104 ;
-    jitis:old jiti:C23521-19920401,
-        jiti:C23521-20100104 ;
-    dcterms:issue "2010-01-04"^^xsd:date .
+    jitis:new jiti:C06204-20051101 ;
+    jitis:old jiti:C06204-19980818,
+        jiti:C06462-19910319,
+        jiti:C06463-19960826,
+        jiti:C06464-19980818 ;
+    dcterms:issue "2005-11-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C34100-20050425 ;
-    jitis:old jiti:C34100-19941024,
-        jiti:C34324-19700401 ;
-    dcterms:issue "2005-04-25"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C04212-20050401 ;
-    jitis:old jiti:C04541-20050317,
-        jiti:C04542-19940601,
-        jiti:C04543-19700401,
-        jiti:C04544-20010401,
-        jiti:C04545-19910601,
-        jiti:C04546-19940630,
-        jiti:C04547-20040130,
-        jiti:C04548-19910401,
-        jiti:C04602-19700401 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C20201-20100101 ;
-    jitis:old jiti:C20201-20050101,
-        jiti:C20581-19700801,
-        jiti:C20589-19700801 ;
-    dcterms:issue "2010-01-01"^^xsd:date .
+    jitis:new jiti:C30366-20060101 ;
+    jitis:old jiti:C30363-19700401,
+        jiti:C30364-19700401,
+        jiti:C30365-19700401 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
 
 [] a jitis:Change ;
     jitis:new jiti:C11245-20051001 ;
@@ -8590,19 +8364,203 @@ jiti:C45201-20060101 a jitis:StandardAreaCode ;
     dcterms:issue "2005-10-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C08236-20060327 ;
-    jitis:old jiti:C08303-20030201,
-        jiti:C08304-19910201,
-        jiti:C08462-19790501 ;
+    jitis:new jiti:C43100-20120401,
+        jiti:C43101-20120401,
+        jiti:C43102-20120401,
+        jiti:C43103-20120401,
+        jiti:C43104-20120401,
+        jiti:C43105-20120401 ;
+    jitis:old jiti:C43201-20081006 ;
+    dcterms:issue "2012-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C20407-20090331 ;
+    jitis:old jiti:C20406-19700401,
+        jiti:C20407-20060101 ;
+    dcterms:issue "2009-03-31"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C36387-20060331 ;
+    jitis:old jiti:C36381-19700401,
+        jiti:C36382-19700401 ;
+    dcterms:issue "2006-03-31"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C22209-20050505 ;
+    jitis:old jiti:C22209-19771201,
+        jiti:C22425-20010604 ;
+    dcterms:issue "2005-05-05"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C37208-20060101 ;
+    jitis:old jiti:C37421-20010404,
+        jiti:C37422-20001129,
+        jiti:C37423-20010404,
+        jiti:C37425-19950301,
+        jiti:C37426-19971231,
+        jiti:C37427-19780901,
+        jiti:C37429-19910301 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C22212-20081101 ;
+    jitis:old jiti:C22212-19781001,
+        jiti:C22402-19760601 ;
+    dcterms:issue "2008-11-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C36206-20050401 ;
+    jitis:old jiti:C36406-19920201,
+        jiti:C36407-19800201,
+        jiti:C36421-19960122,
+        jiti:C36422-19960122 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C03209-20050920 ;
+    jitis:old jiti:C03209-20041001,
+        jiti:C03401-20010401,
+        jiti:C03421-19700401,
+        jiti:C03423-19700401,
+        jiti:C03424-19700401,
+        jiti:C03425-19700401,
+        jiti:C03426-19700401 ;
+    dcterms:issue "2005-09-20"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C43215-20060327 ;
+    jitis:old jiti:C43207-19700401,
+        jiti:C43209-19700401,
+        jiti:C43523-19700401,
+        jiti:C43526-19700401,
+        jiti:C43527-19700401,
+        jiti:C43528-19700401,
+        jiti:C43529-19700401,
+        jiti:C43530-19700401,
+        jiti:C43532-19760301,
+        jiti:C43533-19760301 ;
     dcterms:issue "2006-03-27"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C43206-20051003 ;
-    jitis:old jiti:C43206-19951201,
-        jiti:C43361-19951201,
-        jiti:C43362-19740501,
-        jiti:C43363-19700401 ;
-    dcterms:issue "2005-10-03"^^xsd:date .
+    jitis:new jiti:C03201-20060110 ;
+    jitis:old jiti:C03201-20001101,
+        jiti:C03307-20011201 ;
+    dcterms:issue "2006-01-10"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C03216-20140101 ;
+    jitis:old jiti:C03305-19700401 ;
+    dcterms:issue "2014-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C28205-20060211 ;
+    jitis:old jiti:C28205-19700401,
+        jiti:C28685-19700401 ;
+    dcterms:issue "2006-02-11"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C12239-20130101 ;
+    jitis:old jiti:C12402-20120101 ;
+    dcterms:issue "2013-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C33100-20090401,
+        jiti:C33101-20090401,
+        jiti:C33102-20090401,
+        jiti:C33103-20090401,
+        jiti:C33104-20090401 ;
+    jitis:old jiti:C33201-20070122 ;
+    dcterms:issue "2009-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C22210-20081101 ;
+    jitis:old jiti:C22210-20010401,
+        jiti:C22381-19700401 ;
+    dcterms:issue "2008-11-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C03207-20060306 ;
+    jitis:old jiti:C03207-19700401,
+        jiti:C03504-19700401 ;
+    dcterms:issue "2006-03-06"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C44208-20050401 ;
+    jitis:old jiti:C44208-19700401,
+        jiti:C44441-19700401,
+        jiti:C44442-19700401,
+        jiti:C44443-19700401 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C12237-20060327 ;
+    jitis:old jiti:C12404-19870801,
+        jiti:C12405-19860401,
+        jiti:C12406-19931001,
+        jiti:C12407-20030301 ;
+    dcterms:issue "2006-03-27"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C02202-20060227 ;
+    jitis:old jiti:C02202-19881001,
+        jiti:C02341-19760201,
+        jiti:C02342-19881001 ;
+    dcterms:issue "2006-02-27"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C01233-20060301 ;
+    jitis:old jiti:C01233-19720401,
+        jiti:C01574-19700401 ;
+    dcterms:issue "2006-03-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C42207-20051001 ;
+    jitis:old jiti:C42207-19700401,
+        jiti:C42381-19700401,
+        jiti:C42382-19700401,
+        jiti:C42385-19700401 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C40227-20060327 ;
+    jitis:old jiti:C40208-19700401,
+        jiti:C40422-19730401,
+        jiti:C40423-19850101,
+        jiti:C40424-19850101 ;
+    dcterms:issue "2006-03-27"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C21214-20050501 ;
+    jitis:old jiti:C21214-20021201,
+        jiti:C21523-19700401 ;
+    dcterms:issue "2005-05-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C11383-20060101 ;
+    jitis:old jiti:C11383-19980601,
+        jiti:C11384-19700401 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C24443-20060110 ;
+    jitis:old jiti:C24443-19700401,
+        jiti:C24445-19700401 ;
+    dcterms:issue "2006-01-10"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C23563-20051127 ;
+    jitis:old jiti:C23563-19700401,
+        jiti:C23564-19700401 ;
+    dcterms:issue "2005-11-27"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C22211-20050401 ;
+    jitis:old jiti:C22211-19930101,
+        jiti:C22482-19780101,
+        jiti:C22483-19790101,
+        jiti:C22484-19930101,
+        jiti:C22485-19830301 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
 
 [] a jitis:Change ;
     jitis:new jiti:C42214-20060331 ;
@@ -8617,376 +8575,50 @@ jiti:C45201-20060101 a jitis:StandardAreaCode ;
     dcterms:issue "2006-03-31"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C36489-20060301 ;
-    jitis:old jiti:C36482-19700401,
-        jiti:C36486-19700401 ;
-    dcterms:issue "2006-03-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C30202-20050401 ;
-    jitis:old jiti:C30202-19700401,
-        jiti:C30301-19700401 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C11218-20060101 ;
-    jitis:old jiti:C11218-19810701,
-        jiti:C11405-19910701,
-        jiti:C11406-19940601,
-        jiti:C11407-19830601 ;
+    jitis:new jiti:C45201-20060101 ;
+    jitis:old jiti:C45201-20020130,
+        jiti:C45303-20050218 ;
     dcterms:issue "2006-01-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C29201-20050401 ;
-    jitis:old jiti:C29201-20020401,
-        jiti:C29301-19961113,
-        jiti:C29321-19911024 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
+    jitis:new jiti:C19209-20060315 ;
+    jitis:old jiti:C19209-20041101,
+        jiti:C19407-19700401 ;
+    dcterms:issue "2006-03-15"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C43100-20120401,
-        jiti:C43101-20120401,
-        jiti:C43102-20120401,
-        jiti:C43103-20120401,
-        jiti:C43104-20120401,
-        jiti:C43105-20120401 ;
-    jitis:old jiti:C43201-20081006 ;
-    dcterms:issue "2012-04-01"^^xsd:date .
+    jitis:new jiti:C28446-20051107 ;
+    jitis:old jiti:C28441-19700401,
+        jiti:C28445-19700401 ;
+    dcterms:issue "2005-11-07"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C11100-20050401 ;
-    jitis:old jiti:C11100-20030401,
-        jiti:C11213-19880601 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C04215-20060331 ;
-    jitis:old jiti:C04204-20030201,
-        jiti:C04461-20011201,
-        jiti:C04462-19910401,
-        jiti:C04463-20030301,
-        jiti:C04481-19750801,
-        jiti:C04482-19700401,
-        jiti:C04502-20030310 ;
+    jitis:new jiti:C36388-20060331 ;
+    jitis:old jiti:C36384-19700401,
+        jiti:C36385-19700401,
+        jiti:C36386-19700401 ;
     dcterms:issue "2006-03-31"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C20407-20060101 ;
-    jitis:old jiti:C20407-19700401,
-        jiti:C20408-19700401 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C28585-20050401 ;
-    jitis:old jiti:C28543-19700401,
-        jiti:C28581-19870101,
-        jiti:C28583-19870101 ;
+    jitis:new jiti:C22203-20050401 ;
+    jitis:old jiti:C22203-20001101,
+        jiti:C22323-19700401 ;
     dcterms:issue "2005-04-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C34213-20051103 ;
-    jitis:old jiti:C34213-20051103,
-        jiti:C34327-19700401 ;
-    dcterms:issue "2005-11-03"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C30206-20050501 ;
-    jitis:old jiti:C30206-19700401,
-        jiti:C30387-19700401,
-        jiti:C30402-19700401,
-        jiti:C30403-19700401,
-        jiti:C30426-19700401 ;
-    dcterms:issue "2005-05-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C39401-20060101 ;
-    jitis:old jiti:C39401-19700401,
-        jiti:C39406-19930218 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C37208-20060101 ;
-    jitis:old jiti:C37421-20010404,
-        jiti:C37422-20001129,
-        jiti:C37423-20010404,
-        jiti:C37425-19950301,
-        jiti:C37426-19971231,
-        jiti:C37427-19780901,
-        jiti:C37429-19910301 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C32505-20051001 ;
-    jitis:old jiti:C32503-19700401,
-        jiti:C32504-19700401 ;
+    jitis:new jiti:C28501-20051001 ;
+    jitis:old jiti:C28501-19890701,
+        jiti:C28502-19890701,
+        jiti:C28503-19700401,
+        jiti:C28504-19700401 ;
     dcterms:issue "2005-10-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C36206-20050401 ;
-    jitis:old jiti:C36406-19920201,
-        jiti:C36407-19800201,
-        jiti:C36421-19960122,
-        jiti:C36422-19960122 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C28586-20051001 ;
-    jitis:old jiti:C28582-19900314,
-        jiti:C28584-19900314 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C40210-20100201 ;
-    jitis:old jiti:C40210-20061001,
-        jiti:C40541-19700401,
-        jiti:C40543-19700401,
-        jiti:C40545-19700401,
-        jiti:C40546-19700401 ;
-    dcterms:issue "2010-02-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C36387-20060331 ;
-    jitis:old jiti:C36381-19700401,
-        jiti:C36382-19700401 ;
-    dcterms:issue "2006-03-31"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C15217-20050401 ;
-    jitis:old jiti:C15217-19990331,
-        jiti:C15545-19700401,
-        jiti:C15547-19990501 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C03507-20060101 ;
-    jitis:old jiti:C03502-19700401,
-        jiti:C03505-19700401 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C12211-20060327 ;
-    jitis:old jiti:C12211-20050701,
-        jiti:C12341-19761201,
-        jiti:C12343-19941001 ;
-    dcterms:issue "2006-03-27"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C15205-20050501 ;
-    jitis:old jiti:C15205-19980311,
-        jiti:C15501-19850401,
-        jiti:C15505-20020316 ;
-    dcterms:issue "2005-05-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C39212-20060301 ;
-    jitis:old jiti:C39323-20000807,
-        jiti:C39326-19700401,
-        jiti:C39328-19700401 ;
-    dcterms:issue "2006-03-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C07201-20080701 ;
-    jitis:old jiti:C07201-19960101,
-        jiti:C07309-19821201 ;
-    dcterms:issue "2008-07-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C19213-20051101 ;
-    jitis:old jiti:C19203-19700401,
-        jiti:C19304-19700401,
-        jiti:C19305-19700401 ;
-    dcterms:issue "2005-11-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C46210-20060101 ;
-    jitis:old jiti:C46210-19700401,
-        jiti:C46322-19820401,
-        jiti:C46324-19820401 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C45205-20100323 ;
-    jitis:old jiti:C45205-20060320,
-        jiti:C45362-19700401 ;
-    dcterms:issue "2010-03-23"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C04205-20060331 ;
-    jitis:old jiti:C04205-19930201,
-        jiti:C04604-19700401 ;
-    dcterms:issue "2006-03-31"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C09205-20060101 ;
-    jitis:old jiti:C09205-20040801,
-        jiti:C09322-19941201 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C14209-20070311 ;
-    jitis:old jiti:C14209-20060320,
-        jiti:C14424-19701201 ;
-    dcterms:issue "2007-03-11"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C15206-20050501 ;
-    jitis:old jiti:C15206-20030707,
-        jiti:C15308-19900921,
-        jiti:C15309-19910313 ;
-    dcterms:issue "2005-05-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C25214-20051001 ;
-    jitis:old jiti:C25214-20050214,
-        jiti:C25464-19930129 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C37201-20060110 ;
-    jitis:old jiti:C37201-20050926,
-        jiti:C37343-19700401,
-        jiti:C37362-19700401,
-        jiti:C37363-19700401,
-        jiti:C37383-19750401 ;
-    dcterms:issue "2006-01-10"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C44208-20050401 ;
-    jitis:old jiti:C44208-19700401,
-        jiti:C44441-19700401,
-        jiti:C44442-19700401,
-        jiti:C44443-19700401 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C40227-20060327 ;
-    jitis:old jiti:C40208-19700401,
-        jiti:C40422-19730401,
-        jiti:C40423-19850101,
-        jiti:C40424-19850101 ;
-    dcterms:issue "2006-03-27"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C01514-20060320 ;
-    jitis:old jiti:C01514-19700401,
-        jiti:C01515-19700401 ;
+    jitis:new jiti:C39412-20060320 ;
+    jitis:old jiti:C39404-19700401,
+        jiti:C39422-19700401,
+        jiti:C39425-19700401 ;
     dcterms:issue "2006-03-20"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C03209-20050920 ;
-    jitis:old jiti:C03209-20041001,
-        jiti:C03401-20010401,
-        jiti:C03421-19700401,
-        jiti:C03423-19700401,
-        jiti:C03424-19700401,
-        jiti:C03425-19700401,
-        jiti:C03426-19700401 ;
-    dcterms:issue "2005-09-20"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C30401-20060301 ;
-    jitis:old jiti:C30401-19700401,
-        jiti:C30405-19700401 ;
-    dcterms:issue "2006-03-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C09216-20060110 ;
-    jitis:old jiti:C09302-19871201,
-        jiti:C09362-19910101,
-        jiti:C09363-19910101 ;
-    dcterms:issue "2006-01-10"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C01586-20060327 ;
-    jitis:old jiti:C01582-19800301,
-        jiti:C01583-19800301 ;
-    dcterms:issue "2006-03-27"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C22226-20051011 ;
-    jitis:old jiti:C22422-20040322,
-        jiti:C22423-20010604 ;
-    dcterms:issue "2005-10-11"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C25425-20060213 ;
-    jitis:old jiti:C25423-19841201,
-        jiti:C25424-19840301 ;
-    dcterms:issue "2006-02-13"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C46223-20071201 ;
-    jitis:old jiti:C46323-19700401,
-        jiti:C46344-19860324,
-        jiti:C46345-19860324 ;
-    dcterms:issue "2007-12-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C39201-20080101 ;
-    jitis:old jiti:C39201-20050101,
-        jiti:C39383-19700401 ;
-    dcterms:issue "2008-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C24441-20060101 ;
-    jitis:old jiti:C24441-19880601,
-        jiti:C24444-19830401 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C23221-20051001 ;
-    jitis:old jiti:C23221-19910401,
-        jiti:C23581-19700401,
-        jiti:C23582-19700401 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C40625-20060320 ;
-    jitis:old jiti:C40622-19981020,
-        jiti:C40623-19780501,
-        jiti:C40624-19981020 ;
-    dcterms:issue "2006-03-20"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C20452-20051011 ;
-    jitis:old jiti:C20444-19700401,
-        jiti:C20445-19910301,
-        jiti:C20447-19921001 ;
-    dcterms:issue "2005-10-11"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C20212-20060101 ;
-    jitis:old jiti:C20212-19910401,
-        jiti:C20483-19700401,
-        jiti:C20484-19700401 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C40205-20060326 ;
-    jitis:old jiti:C40205-19991206,
-        jiti:C40425-19740901,
-        jiti:C40426-19940913,
-        jiti:C40427-19720801,
-        jiti:C40428-19991206 ;
-    dcterms:issue "2006-03-26"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C30304-20060101 ;
-    jitis:old jiti:C30302-19700401,
-        jiti:C30303-19700401 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C22130-20070401,
-        jiti:C22131-20070401,
-        jiti:C22132-20070401,
-        jiti:C22133-20070401,
-        jiti:C22134-20070401,
-        jiti:C22135-20070401,
-        jiti:C22136-20070401,
-        jiti:C22137-20070401 ;
-    jitis:old jiti:C22202-20050701 ;
-    dcterms:issue "2007-04-01"^^xsd:date .
 
 [] a jitis:Change ;
     jitis:new jiti:C09210-20051001 ;
@@ -8996,232 +8628,37 @@ jiti:C45201-20060101 a jitis:StandardAreaCode ;
     dcterms:issue "2005-10-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C25203-20060213 ;
-    jitis:old jiti:C25203-19861001,
-        jiti:C25481-19830901,
-        jiti:C25484-19860610 ;
-    dcterms:issue "2006-02-13"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C26201-20060101 ;
-    jitis:old jiti:C26201-19980312,
-        jiti:C26421-19791201,
-        jiti:C26422-19910316,
-        jiti:C26441-19700401 ;
+    jitis:new jiti:C41202-20060101 ;
+    jitis:old jiti:C41202-20050101,
+        jiti:C41382-19700401 ;
     dcterms:issue "2006-01-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C24543-20051011 ;
-    jitis:old jiti:C24541-19700801,
-        jiti:C24542-19700401 ;
-    dcterms:issue "2005-10-11"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C32201-20110801 ;
-    jitis:old jiti:C32201-20050331,
-        jiti:C32304-19920525 ;
-    dcterms:issue "2011-08-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C24203-20051101 ;
-    jitis:old jiti:C24203-20011101,
-        jiti:C24462-19700401,
-        jiti:C24463-19811001,
-        jiti:C24468-19821001 ;
-    dcterms:issue "2005-11-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C32203-20111001 ;
-    jitis:old jiti:C32203-20050322,
-        jiti:C32401-20030131 ;
-    dcterms:issue "2011-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C22216-20050401 ;
-    jitis:old jiti:C22216-20040331,
-        jiti:C22481-20040331 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C18483-20060303 ;
-    jitis:old jiti:C18462-19700401,
-        jiti:C18482-19700401 ;
-    dcterms:issue "2006-03-03"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C04205-20090901 ;
-    jitis:old jiti:C04205-20060331,
-        jiti:C04603-19930201 ;
-    dcterms:issue "2009-09-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C40226-20060211 ;
-    jitis:old jiti:C40403-19700401,
-        jiti:C40404-19700401 ;
-    dcterms:issue "2006-02-11"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C33346-20060301 ;
-    jitis:old jiti:C33345-19700401,
-        jiti:C33346-19700401 ;
-    dcterms:issue "2006-03-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C28209-20050401 ;
-    jitis:old jiti:C28209-19950301,
-        jiti:C28541-19700401,
-        jiti:C28542-19700401,
-        jiti:C28544-19760901,
-        jiti:C28561-19950301,
-        jiti:C28562-19740801 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C45203-20060220 ;
-    jitis:old jiti:C45203-19700401,
-        jiti:C45426-19701103,
-        jiti:C45428-19721101 ;
-    dcterms:issue "2006-02-20"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C08204-20050912 ;
-    jitis:old jiti:C08204-19700401,
-        jiti:C08541-19950101,
-        jiti:C08543-19840901 ;
-    dcterms:issue "2005-09-12"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C25204-20100321 ;
-    jitis:old jiti:C25204-20070928,
-        jiti:C25381-20060401 ;
-    dcterms:issue "2010-03-21"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C26214-20070312 ;
-    jitis:old jiti:C26361-19700401,
-        jiti:C26362-19790501,
-        jiti:C26363-19700401 ;
-    dcterms:issue "2007-03-12"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C03202-20050606 ;
-    jitis:old jiti:C03202-19700401,
-        jiti:C03481-19700401,
-        jiti:C03486-19700401 ;
-    dcterms:issue "2005-06-06"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C28365-20051101 ;
-    jitis:old jiti:C28361-19980601,
-        jiti:C28362-19700401,
-        jiti:C28363-19700401 ;
-    dcterms:issue "2005-11-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C32205-20051001 ;
-    jitis:old jiti:C32205-19880324,
-        jiti:C32421-19700401,
-        jiti:C32422-19880324 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C07210-20051201 ;
-    jitis:old jiti:C07210-19891016,
-        jiti:C07321-19960101,
-        jiti:C07325-19700401,
-        jiti:C07326-19821201 ;
-    dcterms:issue "2005-12-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C40647-20060110 ;
-    jitis:old jiti:C40641-19700401,
-        jiti:C40643-19700401 ;
+    jitis:new jiti:C09216-20060110 ;
+    jitis:old jiti:C09302-19871201,
+        jiti:C09362-19910101,
+        jiti:C09363-19910101 ;
     dcterms:issue "2006-01-10"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C22210-20081101 ;
-    jitis:old jiti:C22210-20010401,
-        jiti:C22381-19700401 ;
-    dcterms:issue "2008-11-01"^^xsd:date .
+    jitis:new jiti:C10208-20060220 ;
+    jitis:old jiti:C10208-20030701,
+        jiti:C10301-19930901,
+        jiti:C10302-19770501,
+        jiti:C10341-19700401,
+        jiti:C10342-19700401,
+        jiti:C10343-19700401 ;
+    dcterms:issue "2006-02-20"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C24472-20051001 ;
-    jitis:old jiti:C24464-19700401,
-        jiti:C24465-19700401 ;
+    jitis:new jiti:C06203-20051001 ;
+    jitis:old jiti:C06203-19990524,
+        jiti:C06423-20050218,
+        jiti:C06424-19980818,
+        jiti:C06425-19811201,
+        jiti:C06427-19780301,
+        jiti:C06441-19700401 ;
     dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C41206-20060301 ;
-    jitis:old jiti:C41206-19910124,
-        jiti:C41421-19760201,
-        jiti:C41422-19720401 ;
-    dcterms:issue "2006-03-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C09206-20060320 ;
-    jitis:old jiti:C09206-19700401,
-        jiti:C09207-20040801,
-        jiti:C09323-19820401,
-        jiti:C09382-19700401,
-        jiti:C09383-19700401 ;
-    dcterms:issue "2006-03-20"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C45201-20060101 ;
-    jitis:old jiti:C45201-20020130,
-        jiti:C45303-20050218 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C08231-20051001 ;
-    jitis:old jiti:C08324-19981001,
-        jiti:C08503-20000701,
-        jiti:C08504-19961001 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C20202-20100331 ;
-    jitis:old jiti:C20202-20050401,
-        jiti:C20449-20050401 ;
-    dcterms:issue "2010-03-31"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C23207-20060201 ;
-    jitis:old jiti:C23207-19890201,
-        jiti:C23602-19910401 ;
-    dcterms:issue "2006-02-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C37324-20060321 ;
-    jitis:old jiti:C37321-19700401,
-        jiti:C37323-19700401 ;
-    dcterms:issue "2006-03-21"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C22212-20081101 ;
-    jitis:old jiti:C22212-19781001,
-        jiti:C22402-19760601 ;
-    dcterms:issue "2008-11-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C20432-20051101 ;
-    jitis:old jiti:C20421-19700401,
-        jiti:C20426-19700401,
-        jiti:C20427-19700401,
-        jiti:C20428-19700401 ;
-    dcterms:issue "2005-11-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C07202-20051101 ;
-    jitis:old jiti:C07202-20041101,
-        jiti:C07424-20020123 ;
-    dcterms:issue "2005-11-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C02201-20050401 ;
-    jitis:old jiti:C02201-19700401,
-        jiti:C02364-19830401 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
 
 [] a jitis:Change ;
     jitis:new jiti:C10449-20051001 ;
@@ -9231,44 +8668,127 @@ jiti:C45201-20060101 a jitis:StandardAreaCode ;
     dcterms:issue "2005-10-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C07447-20051001 ;
-    jitis:old jiti:C07441-19980601,
-        jiti:C07442-20011001,
-        jiti:C07443-19980601 ;
+    jitis:new jiti:C15210-20050401 ;
+    jitis:old jiti:C15210-19990605,
+        jiti:C15481-19931218,
+        jiti:C15483-19990605,
+        jiti:C15523-19850401,
+        jiti:C15524-19700401 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C10429-20060327 ;
+    jitis:old jiti:C10422-20040601,
+        jiti:C10423-20040601 ;
+    dcterms:issue "2006-03-27"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C23233-20091001 ;
+    jitis:old jiti:C23233-20050707,
+        jiti:C23345-19900401 ;
+    dcterms:issue "2009-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C34205-20060110 ;
+    jitis:old jiti:C34205-20050328,
+        jiti:C34206-19700401,
+        jiti:C34430-19700401 ;
+    dcterms:issue "2006-01-10"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C16211-20051101 ;
+    jitis:old jiti:C16203-19850901,
+        jiti:C16381-19990126,
+        jiti:C16382-20011101,
+        jiti:C16383-19840901,
+        jiti:C16384-20011101 ;
+    dcterms:issue "2005-11-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C09205-20060101 ;
+    jitis:old jiti:C09205-20040801,
+        jiti:C09322-19941201 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C40230-20100101 ;
+    jitis:old jiti:C40222-19930430,
+        jiti:C40462-19930430,
+        jiti:C40463-19750501 ;
+    dcterms:issue "2010-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C22100-20050401,
+        jiti:C22101-20050401,
+        jiti:C22102-20050401,
+        jiti:C22103-20050401 ;
+    jitis:old jiti:C22201-20030401 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C11207-20050401 ;
+    jitis:old jiti:C11207-19961101,
+        jiti:C11364-19961101,
+        jiti:C11367-19700401,
+        jiti:C11368-19700401 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C10202-20090601 ;
+    jitis:old jiti:C10202-20060123,
+        jiti:C10363-19840901 ;
+    dcterms:issue "2009-06-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C07201-20080701 ;
+    jitis:old jiti:C07201-19960101,
+        jiti:C07309-19821201 ;
+    dcterms:issue "2008-07-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C02445-20060101 ;
+    jitis:old jiti:C02444-20021210,
+        jiti:C02445-19700401,
+        jiti:C02447-20021210 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C22209-20080401 ;
+    jitis:old jiti:C22209-20050505,
+        jiti:C22426-19700401 ;
+    dcterms:issue "2008-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C15202-20100331 ;
+    jitis:old jiti:C15202-20050401,
+        jiti:C15441-19730501 ;
+    dcterms:issue "2010-03-31"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C17206-20051001 ;
+    jitis:old jiti:C17206-20031201,
+        jiti:C17301-19700401 ;
     dcterms:issue "2005-10-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C35213-20080321 ;
-    jitis:old jiti:C35213-19870321,
-        jiti:C35461-20000306,
-        jiti:C35462-20000306 ;
-    dcterms:issue "2008-03-21"^^xsd:date .
+    jitis:new jiti:C08231-20051001 ;
+    jitis:old jiti:C08324-19981001,
+        jiti:C08503-20000701,
+        jiti:C08504-19961001 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C01345-20050401 ;
-    jitis:old jiti:C01344-19700901,
-        jiti:C01345-19700401 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
+    jitis:new jiti:C42202-20060331 ;
+    jitis:old jiti:C42202-20050401,
+        jiti:C42384-19700401,
+        jiti:C42390-19700401 ;
+    dcterms:issue "2006-03-31"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C04213-20050401 ;
-    jitis:old jiti:C04521-20020201,
-        jiti:C04522-20050317,
-        jiti:C04523-19990927,
-        jiti:C04524-19941220,
-        jiti:C04525-19990927,
-        jiti:C04526-19890331,
-        jiti:C04527-19721101,
-        jiti:C04528-19870601,
-        jiti:C04529-20020201,
-        jiti:C04530-19700401 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C34213-20051103 ;
-    jitis:old jiti:C34213-20030301,
-        jiti:C34323-19850401 ;
-    dcterms:issue "2005-11-03"^^xsd:date .
+    jitis:new jiti:C14209-20070311 ;
+    jitis:old jiti:C14209-20060320,
+        jiti:C14424-19701201 ;
+    dcterms:issue "2007-03-11"^^xsd:date .
 
 [] a jitis:Change ;
     jitis:new jiti:C10421-20100328 ;
@@ -9277,55 +8797,16 @@ jiti:C45201-20060101 a jitis:StandardAreaCode ;
     dcterms:issue "2010-03-28"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C44214-20060331 ;
-    jitis:old jiti:C44321-19700401,
-        jiti:C44323-19920201,
-        jiti:C44324-19980301,
-        jiti:C44325-19980301 ;
-    dcterms:issue "2006-03-31"^^xsd:date .
+    jitis:new jiti:C20202-20100331 ;
+    jitis:old jiti:C20202-20050401,
+        jiti:C20449-20050401 ;
+    dcterms:issue "2010-03-31"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C35203-20100116 ;
-    jitis:old jiti:C35203-20051001,
-        jiti:C35504-19700401 ;
-    dcterms:issue "2010-01-16"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C25213-20060101 ;
-    jitis:old jiti:C25213-20050211,
-        jiti:C25382-20030313,
-        jiti:C25403-19700401 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C08211-20060101 ;
-    jitis:old jiti:C08211-19870301,
-        jiti:C08523-19990201 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C01221-20060327 ;
-    jitis:old jiti:C01221-19700401,
-        jiti:C01467-19700401 ;
-    dcterms:issue "2006-03-27"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C10210-20060327 ;
-    jitis:old jiti:C10210-19920701,
-        jiti:C10381-20030601 ;
-    dcterms:issue "2006-03-27"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C14209-20070311 ;
-    jitis:old jiti:C14209-20060320,
-        jiti:C14421-19700401 ;
-    dcterms:issue "2007-03-11"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C11349-20060201 ;
-    jitis:old jiti:C11344-19700401,
-        jiti:C11345-19700401 ;
-    dcterms:issue "2006-02-01"^^xsd:date .
+    jitis:new jiti:C11203-20111011 ;
+    jitis:old jiti:C11203-20010401,
+        jiti:C11226-19710401 ;
+    dcterms:issue "2011-10-11"^^xsd:date .
 
 [] a jitis:Change ;
     jitis:new jiti:C04202-20050401 ;
@@ -9339,89 +8820,131 @@ jiti:C45201-20060101 a jitis:StandardAreaCode ;
     dcterms:issue "2005-04-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C14209-20060320 ;
-    jitis:old jiti:C14209-20041201,
-        jiti:C14422-19700401,
-        jiti:C14423-19701201 ;
-    dcterms:issue "2006-03-20"^^xsd:date .
+    jitis:new jiti:C22214-20090101 ;
+    jitis:old jiti:C22214-20060124,
+        jiti:C22401-20060124 ;
+    dcterms:issue "2009-01-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C01643-20060206 ;
-    jitis:old jiti:C01640-19700401,
-        jiti:C01643-19700401 ;
-    dcterms:issue "2006-02-06"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C46219-20051011 ;
-    jitis:old jiti:C46205-19700401,
-        jiti:C46361-19700401 ;
-    dcterms:issue "2005-10-11"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C46217-20050701 ;
-    jitis:old jiti:C46461-19981218,
-        jiti:C46463-19881217,
-        jiti:C46464-20000121 ;
-    dcterms:issue "2005-07-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C20217-20050401 ;
-    jitis:old jiti:C20217-19910110,
-        jiti:C20301-19850901,
-        jiti:C20322-19880622,
-        jiti:C20325-19850901 ;
+    jitis:new jiti:C20215-20050401 ;
+    jitis:old jiti:C20215-19950401,
+        jiti:C20424-19700401 ;
     dcterms:issue "2005-04-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C11110-20050401 ;
+    jitis:new jiti:C20202-20050401 ;
+    jitis:old jiti:C20202-20001101,
+        jiti:C20443-19700401,
+        jiti:C20463-19700401,
+        jiti:C20464-20050120,
+        jiti:C20465-19860901 ;
     dcterms:issue "2005-04-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C03202-20100101 ;
-    jitis:old jiti:C03202-20050606,
-        jiti:C03487-19700401 ;
-    dcterms:issue "2010-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C11383-20060101 ;
-    jitis:old jiti:C11383-19980601,
-        jiti:C11384-19700401 ;
+    jitis:new jiti:C21201-20060101 ;
+    jitis:old jiti:C21201-20020301,
+        jiti:C21304-19921101 ;
     dcterms:issue "2006-01-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C23203-20050401 ;
-    jitis:old jiti:C23203-20020401,
-        jiti:C23218-19830228,
-        jiti:C23381-19780331 ;
+    jitis:new jiti:C39401-20060101 ;
+    jitis:old jiti:C39401-19700401,
+        jiti:C39406-19930218 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C20211-20050401 ;
+    jitis:old jiti:C20211-19700401,
+        jiti:C20601-19700401 ;
     dcterms:issue "2005-04-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C01585-20060327 ;
-    jitis:old jiti:C01579-19700401,
-        jiti:C01580-19700401 ;
-    dcterms:issue "2006-03-27"^^xsd:date .
+    jitis:new jiti:C44214-20060331 ;
+    jitis:old jiti:C44321-19700401,
+        jiti:C44323-19920201,
+        jiti:C44324-19980301,
+        jiti:C44325-19980301 ;
+    dcterms:issue "2006-03-31"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C09209-20090323 ;
-    jitis:old jiti:C09209-20020101,
-        jiti:C09341-20050201 ;
-    dcterms:issue "2009-03-23"^^xsd:date .
+    jitis:new jiti:C05204-20050620 ;
+    jitis:old jiti:C05204-20021210,
+        jiti:C05322-20021210,
+        jiti:C05325-19890901 ;
+    dcterms:issue "2005-06-20"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C33100-20090401,
-        jiti:C33101-20090401,
-        jiti:C33102-20090401,
-        jiti:C33103-20090401,
-        jiti:C33104-20090401 ;
-    jitis:old jiti:C33201-20070122 ;
-    dcterms:issue "2009-04-01"^^xsd:date .
+    jitis:new jiti:C39201-20080101 ;
+    jitis:old jiti:C39201-20050101,
+        jiti:C39383-19700401 ;
+    dcterms:issue "2008-01-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C08234-20051011 ;
-    jitis:old jiti:C08401-19940901,
-        jiti:C08402-19950601,
-        jiti:C08403-19810601 ;
-    dcterms:issue "2005-10-11"^^xsd:date .
+    jitis:new jiti:C32501-20050925 ;
+    jitis:old jiti:C32501-19700401,
+        jiti:C32502-19700401 ;
+    dcterms:issue "2005-09-25"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C08406-20050801 ;
+    jitis:old jiti:C08406-19951201,
+        jiti:C08407-19951201 ;
+    dcterms:issue "2005-08-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C46203-20060101 ;
+    jitis:old jiti:C46203-19700401,
+        jiti:C46462-19911119,
+        jiti:C46481-20031128,
+        jiti:C46485-19850327 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C20209-20060331 ;
+    jitis:old jiti:C20209-19920301,
+        jiti:C20381-19920301,
+        jiti:C20387-19700401 ;
+    dcterms:issue "2006-03-31"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C03213-20060101 ;
+    jitis:old jiti:C03213-19720401,
+        jiti:C03521-19860529 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C28227-20050401 ;
+    jitis:old jiti:C28521-19700401,
+        jiti:C28523-19700401,
+        jiti:C28524-19700401,
+        jiti:C28525-19700401 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C01555-20051001 ;
+    jitis:old jiti:C01554-19700401,
+        jiti:C01555-19700401,
+        jiti:C01556-19700401,
+        jiti:C01557-19700401 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C04216-20161010 ;
+    jitis:old jiti:C04423-20090401 ;
+    dcterms:issue "2016-10-10"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C39212-20060301 ;
+    jitis:old jiti:C39323-20000807,
+        jiti:C39326-19700401,
+        jiti:C39328-19700401 ;
+    dcterms:issue "2006-03-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C19211-20060801 ;
+    jitis:old jiti:C19211-20041012,
+        jiti:C19327-19700401 ;
+    dcterms:issue "2006-08-01"^^xsd:date .
 
 [] a jitis:Change ;
     jitis:new jiti:C22202-20050701 ;
@@ -9440,33 +8963,6 @@ jiti:C45201-20060101 a jitis:StandardAreaCode ;
     dcterms:issue "2005-07-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C08210-20060101 ;
-    jitis:old jiti:C08210-19841201,
-        jiti:C08522-19850301 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C16211-20051101 ;
-    jitis:old jiti:C16203-19850901,
-        jiti:C16381-19990126,
-        jiti:C16382-20011101,
-        jiti:C16383-19840901,
-        jiti:C16384-20011101 ;
-    dcterms:issue "2005-11-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C05203-20051001 ;
-    jitis:old jiti:C05203-20050819,
-        jiti:C05441-19970917,
-        jiti:C05442-20040823,
-        jiti:C05443-20040823,
-        jiti:C05444-19770201,
-        jiti:C05445-20040331,
-        jiti:C05446-19700401,
-        jiti:C05447-20040329 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
     jitis:new jiti:C19346-20051001 ;
     jitis:old jiti:C19342-19700401,
         jiti:C19343-19700401,
@@ -9474,46 +8970,193 @@ jiti:C45201-20060101 a jitis:StandardAreaCode ;
     dcterms:issue "2005-10-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C28213-20051001 ;
-    jitis:old jiti:C28213-19980601,
-        jiti:C28364-19700401 ;
+    jitis:new jiti:C40647-20060110 ;
+    jitis:old jiti:C40641-19700401,
+        jiti:C40643-19700401 ;
+    dcterms:issue "2006-01-10"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C01210-20060327 ;
+    jitis:old jiti:C01210-19700401,
+        jiti:C01421-19700401,
+        jiti:C01422-19700401 ;
+    dcterms:issue "2006-03-27"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C17212-20111111 ;
+    jitis:old jiti:C17344-19990501 ;
+    dcterms:issue "2011-11-11"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C33216-20060321 ;
+    jitis:old jiti:C33442-19700401,
+        jiti:C33443-19700401,
+        jiti:C33444-19700401 ;
+    dcterms:issue "2006-03-21"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C20452-20051011 ;
+    jitis:old jiti:C20444-19700401,
+        jiti:C20445-19910301,
+        jiti:C20447-19921001 ;
+    dcterms:issue "2005-10-11"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C23235-20060401 ;
+    jitis:old jiti:C23428-20060401 ;
+    dcterms:issue "2006-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C12238-20051205 ;
+    jitis:old jiti:C12442-20001001,
+        jiti:C12444-19791201,
+        jiti:C12445-20001001 ;
+    dcterms:issue "2005-12-05"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C23231-20051001 ;
+    jitis:old jiti:C23231-20030820,
+        jiti:C23623-19710320 ;
     dcterms:issue "2005-10-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C20590-20051001 ;
-    jitis:old jiti:C20584-19700401,
-        jiti:C20585-19800601 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C22211-20050401 ;
-    jitis:old jiti:C22211-19930101,
-        jiti:C22482-19780101,
-        jiti:C22483-19790101,
-        jiti:C22484-19930101,
-        jiti:C22485-19830301 ;
+    jitis:new jiti:C04213-20050401 ;
+    jitis:old jiti:C04521-20020201,
+        jiti:C04522-20050317,
+        jiti:C04523-19990927,
+        jiti:C04524-19941220,
+        jiti:C04525-19990927,
+        jiti:C04526-19890331,
+        jiti:C04527-19721101,
+        jiti:C04528-19870601,
+        jiti:C04529-20020201,
+        jiti:C04530-19700401 ;
     dcterms:issue "2005-04-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C11217-20051001 ;
-    jitis:old jiti:C11217-19700401,
-        jiti:C11304-19701201,
-        jiti:C11423-20010501 ;
+    jitis:new jiti:C10203-20050613 ;
+    jitis:old jiti:C10203-19700401,
+        jiti:C10307-19970701,
+        jiti:C10308-19700401 ;
+    dcterms:issue "2005-06-13"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C32205-20051001 ;
+    jitis:old jiti:C32205-19880324,
+        jiti:C32421-19700401,
+        jiti:C32422-19880324 ;
     dcterms:issue "2005-10-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C02202-20060227 ;
-    jitis:old jiti:C02202-19881001,
-        jiti:C02341-19760201,
-        jiti:C02342-19881001 ;
-    dcterms:issue "2006-02-27"^^xsd:date .
+    jitis:new jiti:C15201-20051010 ;
+    jitis:old jiti:C15201-20050321,
+        jiti:C15345-20030312 ;
+    dcterms:issue "2005-10-10"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C08216-20060319 ;
-    jitis:old jiti:C08216-19970501,
-        jiti:C08321-19970501,
-        jiti:C08322-19890601 ;
-    dcterms:issue "2006-03-19"^^xsd:date .
+    jitis:new jiti:C25213-20060101 ;
+    jitis:old jiti:C25213-20050211,
+        jiti:C25382-20030313,
+        jiti:C25403-19700401 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C46219-20051011 ;
+    jitis:old jiti:C46205-19700401,
+        jiti:C46361-19700401 ;
+    dcterms:issue "2005-10-11"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C17204-20060201 ;
+    jitis:old jiti:C17204-19770501,
+        jiti:C17462-20050301 ;
+    dcterms:issue "2006-02-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C09209-20090323 ;
+    jitis:old jiti:C09209-20020101,
+        jiti:C09341-20050201 ;
+    dcterms:issue "2009-03-23"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C41401-20060301 ;
+    jitis:old jiti:C41401-19761228,
+        jiti:C41402-19700401 ;
+    dcterms:issue "2006-03-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C46208-20060313 ;
+    jitis:old jiti:C46208-19830501,
+        jiti:C46401-19800901,
+        jiti:C46402-19830501 ;
+    dcterms:issue "2006-03-13"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C35213-20080321 ;
+    jitis:old jiti:C35213-19870321,
+        jiti:C35461-20000306,
+        jiti:C35462-20000306 ;
+    dcterms:issue "2008-03-21"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C04606-20051001 ;
+    jitis:old jiti:C04601-19700401,
+        jiti:C04605-19700401 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C12236-20060327 ;
+    jitis:old jiti:C12209-19960101,
+        jiti:C12344-19991001,
+        jiti:C12345-19991001,
+        jiti:C12346-19700401 ;
+    dcterms:issue "2006-03-27"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C47362-20060101 ;
+    jitis:old jiti:C47343-19970401,
+        jiti:C47344-19900301 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C02412-20060301 ;
+    jitis:old jiti:C02403-19700401,
+        jiti:C02410-19850901 ;
+    dcterms:issue "2006-03-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C15217-20050401 ;
+    jitis:old jiti:C15217-19990331,
+        jiti:C15545-19700401,
+        jiti:C15547-19990501 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C19213-20051101 ;
+    jitis:old jiti:C19203-19700401,
+        jiti:C19304-19700401,
+        jiti:C19305-19700401 ;
+    dcterms:issue "2005-11-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C43468-20051001 ;
+    jitis:old jiti:C43464-19810901,
+        jiti:C43465-19781201 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C20350-20051001 ;
+    jitis:old jiti:C20342-19891220,
+        jiti:C20347-19700401 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C26213-20060101 ;
+    jitis:old jiti:C26382-19700401,
+        jiti:C26401-19880901,
+        jiti:C26402-19820401,
+        jiti:C26404-19700401 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
 
 [] a jitis:Change ;
     jitis:new jiti:C35208-20060320 ;
@@ -9528,287 +9171,11 @@ jiti:C45201-20060101 a jitis:StandardAreaCode ;
     dcterms:issue "2006-03-20"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C41209-20060101 ;
-    jitis:old jiti:C41442-19910124,
-        jiti:C41443-19710201 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C33202-20050801 ;
-    jitis:old jiti:C33202-20020401,
-        jiti:C33441-19700401,
-        jiti:C33503-19700401 ;
-    dcterms:issue "2005-08-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C02412-20060301 ;
-    jitis:old jiti:C02403-19700401,
-        jiti:C02410-19850901 ;
-    dcterms:issue "2006-03-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C10202-20090601 ;
-    jitis:old jiti:C10202-20060123,
-        jiti:C10363-19840901 ;
-    dcterms:issue "2009-06-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C17384-20050901 ;
-    jitis:old jiti:C17382-19700401,
-        jiti:C17384-20010301 ;
-    dcterms:issue "2005-09-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C09203-20100329 ;
-    jitis:old jiti:C09203-20050201,
-        jiti:C09365-20040701,
-        jiti:C09366-19900601,
-        jiti:C09368-20050201 ;
-    dcterms:issue "2010-03-29"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C04505-20060101 ;
-    jitis:old jiti:C04503-20031224,
-        jiti:C04504-20031224 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C08406-20050801 ;
-    jitis:old jiti:C08406-19951201,
-        jiti:C08407-19951201 ;
-    dcterms:issue "2005-08-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C09203-20140405 ;
-    jitis:old jiti:C09203-20100329,
-        jiti:C09367-19941201 ;
-    dcterms:issue "2014-04-05"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C12410-20060327 ;
-    jitis:old jiti:C12381-20050901,
-        jiti:C12408-20030301 ;
-    dcterms:issue "2006-03-27"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C11202-20070213 ;
-    jitis:old jiti:C11202-20051001,
-        jiti:C11402-19950301 ;
-    dcterms:issue "2007-02-13"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C15204-20050501 ;
-    jitis:old jiti:C15204-20000318,
-        jiti:C15362-19700401,
-        jiti:C15363-20040320 ;
-    dcterms:issue "2005-05-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C12239-20130101 ;
-    jitis:old jiti:C12402-20120101 ;
-    dcterms:issue "2013-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C47213-20050401 ;
-    jitis:old jiti:C47202-19820101,
-        jiti:C47203-19990610,
-        jiti:C47322-20010412,
-        jiti:C47323-20010412 ;
+    jitis:new jiti:C07207-20050401 ;
+    jitis:old jiti:C07207-19970901,
+        jiti:C07341-19940201,
+        jiti:C07343-19970901 ;
     dcterms:issue "2005-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C24212-20051101 ;
-    jitis:old jiti:C24212-19831001,
-        jiti:C24563-19700401 ;
-    dcterms:issue "2005-11-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C08211-20060101 ;
-    jitis:old jiti:C08211-20060101 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C33201-20070122 ;
-    jitis:old jiti:C33201-20050322,
-        jiti:C33303-19700401,
-        jiti:C33321-19941024 ;
-    dcterms:issue "2007-01-22"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C05214-20051001 ;
-    jitis:old jiti:C05401-20010604,
-        jiti:C05402-20010604,
-        jiti:C05403-19790301 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C18205-20051107 ;
-    jitis:old jiti:C18205-19700701,
-        jiti:C18342-19700401 ;
-    dcterms:issue "2005-11-07"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C01584-20060327 ;
-    jitis:old jiti:C01572-19700401,
-        jiti:C01573-19700401 ;
-    dcterms:issue "2006-03-27"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C47214-20051001 ;
-    jitis:old jiti:C47206-20001020,
-        jiti:C47371-19720607,
-        jiti:C47372-20001020,
-        jiti:C47373-19960201,
-        jiti:C47374-19820401 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C37201-20060110 ;
-    jitis:old jiti:C37201-20050926,
-        jiti:C37342-19700401 ;
-    dcterms:issue "2006-01-10"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C05215-20050920 ;
-    jitis:old jiti:C05423-20040130,
-        jiti:C05426-19930501,
-        jiti:C05430-19930501 ;
-    dcterms:issue "2005-09-20"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C41201-20051001 ;
-    jitis:old jiti:C41201-19990610,
-        jiti:C41301-19940228,
-        jiti:C41305-19981218,
-        jiti:C41306-19960401,
-        jiti:C41326-19860201 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C11207-20050401 ;
-    jitis:old jiti:C11207-19961101,
-        jiti:C11364-19961101,
-        jiti:C11367-19700401,
-        jiti:C11368-19700401 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C38442-20050401 ;
-    jitis:old jiti:C38442-19700401,
-        jiti:C38443-19700401,
-        jiti:C38444-19700401 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C22100-20050401,
-        jiti:C22101-20050401,
-        jiti:C22102-20050401,
-        jiti:C22103-20050401 ;
-    jitis:old jiti:C22201-20030401 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C03215-20060220 ;
-    jitis:old jiti:C03204-20010701,
-        jiti:C03212-20000701,
-        jiti:C03382-20000701,
-        jiti:C03383-20010701,
-        jiti:C03384-19750601 ;
-    dcterms:issue "2006-02-20"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C08235-20060327 ;
-    jitis:old jiti:C08482-20031201,
-        jiti:C08483-20031201 ;
-    dcterms:issue "2006-03-27"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C23235-20060401 ;
-    jitis:old jiti:C23428-20060401 ;
-    dcterms:issue "2006-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C30341-20051001 ;
-    jitis:old jiti:C30341-19700401,
-        jiti:C30345-19700401 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C05348-20060320 ;
-    jitis:old jiti:C05341-20031014,
-        jiti:C05344-20051129,
-        jiti:C05345-20051129 ;
-    dcterms:issue "2006-03-20"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C39428-20060320 ;
-    jitis:old jiti:C39421-19700401,
-        jiti:C39423-20011116 ;
-    dcterms:issue "2006-03-20"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C10208-20060220 ;
-    jitis:old jiti:C10208-20030701,
-        jiti:C10301-19930901,
-        jiti:C10302-19770501,
-        jiti:C10341-19700401,
-        jiti:C10342-19700401,
-        jiti:C10343-19700401 ;
-    dcterms:issue "2006-02-20"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C03213-20060101 ;
-    jitis:old jiti:C03213-19720401,
-        jiti:C03521-19860529 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C10202-20060123 ;
-    jitis:old jiti:C10202-20010401,
-        jiti:C10322-19960701,
-        jiti:C10323-19950701,
-        jiti:C10324-19981101,
-        jiti:C10361-19700401 ;
-    dcterms:issue "2006-01-23"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C22100-20081101 ;
-    jitis:old jiti:C22100-20050401,
-        jiti:C22383-19700401 ;
-    dcterms:issue "2008-11-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C01559-20091005 ;
-    jitis:old jiti:C01558-19700401,
-        jiti:C01559-19700401 ;
-    dcterms:issue "2009-10-05"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C23213-20110401 ;
-    jitis:old jiti:C23213-19940331,
-        jiti:C23481-19731220,
-        jiti:C23482-19700401,
-        jiti:C23483-19700401 ;
-    dcterms:issue "2011-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C16207-20060331 ;
-    jitis:old jiti:C16207-19890601,
-        jiti:C16341-19810511 ;
-    dcterms:issue "2006-03-31"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C09215-20051001 ;
-    jitis:old jiti:C09401-19971201,
-        jiti:C09402-19790301 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C36388-20060331 ;
-    jitis:old jiti:C36384-19700401,
-        jiti:C36385-19700401,
-        jiti:C36386-19700401 ;
-    dcterms:issue "2006-03-31"^^xsd:date .
 
 [] a jitis:Change ;
     jitis:new jiti:C25203-20100101 ;
@@ -9822,736 +9189,19 @@ jiti:C45201-20060101 a jitis:StandardAreaCode ;
     dcterms:issue "2010-01-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C46203-20060101 ;
-    jitis:old jiti:C46203-19700401,
-        jiti:C46462-19911119,
-        jiti:C46481-20031128,
-        jiti:C46485-19850327 ;
+    jitis:new jiti:C40210-20100201 ;
+    jitis:old jiti:C40210-20061001,
+        jiti:C40541-19700401,
+        jiti:C40543-19700401,
+        jiti:C40545-19700401,
+        jiti:C40546-19700401 ;
+    dcterms:issue "2010-02-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C08211-20060101 ;
+    jitis:old jiti:C08211-19870301,
+        jiti:C08523-19990201 ;
     dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C15218-20060101 ;
-    jitis:old jiti:C15218-19741201,
-        jiti:C15322-19741201 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C23234-20060320 ;
-    jitis:old jiti:C23343-19720810,
-        jiti:C23344-19981001 ;
-    dcterms:issue "2006-03-20"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C19214-20060220 ;
-    jitis:old jiti:C19328-19700401,
-        jiti:C19383-19920131,
-        jiti:C19385-19951031 ;
-    dcterms:issue "2006-02-20"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C12238-20051205 ;
-    jitis:old jiti:C12442-20001001,
-        jiti:C12444-19791201,
-        jiti:C12445-20001001 ;
-    dcterms:issue "2005-12-05"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C07207-20050401 ;
-    jitis:old jiti:C07207-19970901,
-        jiti:C07341-19940201,
-        jiti:C07343-19970901 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C22100-20060331 ;
-    jitis:old jiti:C22100-20050401,
-        jiti:C22382-19700401 ;
-    dcterms:issue "2006-03-31"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C11246-20121001 ;
-    jitis:old jiti:C11445-19990901 ;
-    dcterms:issue "2012-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C41202-20060101 ;
-    jitis:old jiti:C41202-20050101,
-        jiti:C41382-19700401 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C01371-20050901 ;
-    jitis:old jiti:C01366-19700401,
-        jiti:C01368-19700401,
-        jiti:C01369-19700401 ;
-    dcterms:issue "2005-09-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C46492-20050701 ;
-    jitis:old jiti:C46483-19700401,
-        jiti:C46484-20031128 ;
-    dcterms:issue "2005-07-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C06204-20051101 ;
-    jitis:old jiti:C06204-19980818,
-        jiti:C06462-19910319,
-        jiti:C06463-19960826,
-        jiti:C06464-19980818 ;
-    dcterms:issue "2005-11-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C42202-20100331 ;
-    jitis:old jiti:C42202-20050401,
-        jiti:C42388-19700401,
-        jiti:C42389-19700401 ;
-    dcterms:issue "2010-03-31"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C23428-20060401 ;
-    jitis:old jiti:C23426-19790201,
-        jiti:C23428-19790201 ;
-    dcterms:issue "2006-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C20205-20051001 ;
-    jitis:old jiti:C20205-19930701,
-        jiti:C20418-19700401,
-        jiti:C20419-19700401 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C07213-20060101 ;
-    jitis:old jiti:C07302-19700415,
-        jiti:C07304-19810901,
-        jiti:C07305-19700401,
-        jiti:C07306-19900901,
-        jiti:C07307-19700401 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C02445-20060101 ;
-    jitis:old jiti:C02444-20021210,
-        jiti:C02445-19700401,
-        jiti:C02447-20021210 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C28225-20050401 ;
-    jitis:old jiti:C28621-19730501,
-        jiti:C28622-19700401,
-        jiti:C28623-19700401,
-        jiti:C28624-19730501 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C40230-20100101 ;
-    jitis:old jiti:C40222-19930430,
-        jiti:C40462-19930430,
-        jiti:C40463-19750501 ;
-    dcterms:issue "2010-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C04606-20051001 ;
-    jitis:old jiti:C04601-19700401,
-        jiti:C04605-19700401 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C39211-20060301 ;
-    jitis:old jiti:C39321-19930719,
-        jiti:C39322-19930719,
-        jiti:C39324-19970522,
-        jiti:C39325-19700401,
-        jiti:C39327-19790903 ;
-    dcterms:issue "2006-03-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C15100-20070401,
-        jiti:C15101-20070401,
-        jiti:C15102-20070401,
-        jiti:C15103-20070401,
-        jiti:C15104-20070401,
-        jiti:C15105-20070401,
-        jiti:C15106-20070401,
-        jiti:C15107-20070401,
-        jiti:C15108-20070401 ;
-    jitis:old jiti:C15201-20051010 ;
-    dcterms:issue "2007-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C23211-20050401 ;
-    jitis:old jiti:C23211-20040501,
-        jiti:C23522-19780401,
-        jiti:C23523-19700401,
-        jiti:C23541-19700401,
-        jiti:C23543-19700401,
-        jiti:C23544-19700401,
-        jiti:C23545-20031001 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C38203-20050801 ;
-    jitis:old jiti:C38203-19740401,
-        jiti:C38481-19700401,
-        jiti:C38482-19700401,
-        jiti:C38486-19700401 ;
-    dcterms:issue "2005-08-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C21202-20060327 ;
-    jitis:old jiti:C21202-20030601,
-        jiti:C21342-19880701,
-        jiti:C21384-19791201 ;
-    dcterms:issue "2006-03-27"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C12235-20060123 ;
-    jitis:old jiti:C12214-20000401,
-        jiti:C12382-19800501 ;
-    dcterms:issue "2006-01-23"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C05202-20060321 ;
-    jitis:old jiti:C05202-20050218,
-        jiti:C05342-19731101 ;
-    dcterms:issue "2006-03-21"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C43202-20050801 ;
-    jitis:old jiti:C43202-19761201,
-        jiti:C43461-19700401,
-        jiti:C43462-19850301,
-        jiti:C43463-19850301,
-        jiti:C43466-19700401,
-        jiti:C43467-19700401 ;
-    dcterms:issue "2005-08-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C42207-20051001 ;
-    jitis:old jiti:C42207-19700401,
-        jiti:C42381-19700401,
-        jiti:C42382-19700401,
-        jiti:C42385-19700401 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C47215-20060101 ;
-    jitis:old jiti:C47345-20020909,
-        jiti:C47346-20020909,
-        jiti:C47347-19800601,
-        jiti:C47349-19930301 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C46225-20100323 ;
-    jitis:old jiti:C46441-19700401,
-        jiti:C46442-19700401,
-        jiti:C46443-19700401 ;
-    dcterms:issue "2010-03-23"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C12234-20060320 ;
-    jitis:old jiti:C12461-19700401,
-        jiti:C12462-19700401,
-        jiti:C12464-19750701,
-        jiti:C12465-19700401,
-        jiti:C12466-20050901,
-        jiti:C12467-20050901,
-        jiti:C12468-19760901 ;
-    dcterms:issue "2006-03-20"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C24443-20060110 ;
-    jitis:old jiti:C24443-19700401,
-        jiti:C24445-19700401 ;
-    dcterms:issue "2006-01-10"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C15210-20050401 ;
-    jitis:old jiti:C15210-19990605,
-        jiti:C15481-19931218,
-        jiti:C15483-19990605,
-        jiti:C15523-19850401,
-        jiti:C15524-19700401 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C46208-20060313 ;
-    jitis:old jiti:C46208-19830501,
-        jiti:C46401-19800901,
-        jiti:C46402-19830501 ;
-    dcterms:issue "2006-03-13"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C11206-20060101 ;
-    jitis:old jiti:C11206-19970901,
-        jiti:C11422-19820301 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C20202-20050401 ;
-    jitis:old jiti:C20202-20001101,
-        jiti:C20443-19700401,
-        jiti:C20463-19700401,
-        jiti:C20464-20050120,
-        jiti:C20465-19860901 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C23233-20050707 ;
-    jitis:old jiti:C23341-19700401,
-        jiti:C23346-19840801,
-        jiti:C23347-19710520 ;
-    dcterms:issue "2005-07-07"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C33216-20060321 ;
-    jitis:old jiti:C33442-19700401,
-        jiti:C33443-19700401,
-        jiti:C33444-19700401 ;
-    dcterms:issue "2006-03-21"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C31372-20051001 ;
-    jitis:old jiti:C31366-19720501,
-        jiti:C31367-19880210 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C11203-20111011 ;
-    jitis:old jiti:C11203-20010401,
-        jiti:C11226-19710401 ;
-    dcterms:issue "2011-10-11"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C39387-20050801 ;
-    jitis:old jiti:C39382-19700401,
-        jiti:C39384-19700401,
-        jiti:C39409-19700401 ;
-    dcterms:issue "2005-08-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C23232-20050401 ;
-    jitis:old jiti:C23429-19780301,
-        jiti:C23430-19781130,
-        jiti:C23431-19781130,
-        jiti:C23432-20040201 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C10209-20060101 ;
-    jitis:old jiti:C10209-19790101,
-        jiti:C10362-19700401 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C29207-20050925 ;
-    jitis:old jiti:C29207-19940114,
-        jiti:C29445-19940114,
-        jiti:C29448-19700401 ;
-    dcterms:issue "2005-09-25"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C30208-20051107 ;
-    jitis:old jiti:C30321-20020601,
-        jiti:C30322-19700401,
-        jiti:C30323-19700401,
-        jiti:C30324-19700401,
-        jiti:C30325-19700401 ;
-    dcterms:issue "2005-11-07"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C17204-20060201 ;
-    jitis:old jiti:C17204-19770501,
-        jiti:C17462-20050301 ;
-    dcterms:issue "2006-02-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C37406-20060320 ;
-    jitis:old jiti:C37401-19700401,
-        jiti:C37402-19700401,
-        jiti:C37405-19900301 ;
-    dcterms:issue "2006-03-20"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C07368-20060320 ;
-    jitis:old jiti:C07361-19700401,
-        jiti:C07363-19700401,
-        jiti:C07365-19700401,
-        jiti:C07366-19700401 ;
-    dcterms:issue "2006-03-20"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C15213-20060320 ;
-    jitis:old jiti:C15213-19790201,
-        jiti:C15343-20050326,
-        jiti:C15344-19821220 ;
-    dcterms:issue "2006-03-20"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C03366-20051101 ;
-    jitis:old jiti:C03363-19700501,
-        jiti:C03365-19700501 ;
-    dcterms:issue "2005-11-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C46222-20060320 ;
-    jitis:old jiti:C46207-19700401,
-        jiti:C46526-19700401,
-        jiti:C46528-19700401 ;
-    dcterms:issue "2006-03-20"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C04214-20050401 ;
-    jitis:old jiti:C04562-19981101,
-        jiti:C04566-19991201 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C24562-20060110 ;
-    jitis:old jiti:C24562-19700401,
-        jiti:C24564-19700401 ;
-    dcterms:issue "2006-01-10"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C17206-20051001 ;
-    jitis:old jiti:C17206-20031201,
-        jiti:C17301-19700401 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C22225-20050401 ;
-    jitis:old jiti:C22321-19700401,
-        jiti:C22326-19960801,
-        jiti:C22327-19700401 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C10201-20090505 ;
-    jitis:old jiti:C10201-20090401,
-        jiti:C10303-19981101 ;
-    dcterms:issue "2009-05-05"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C21214-20050501 ;
-    jitis:old jiti:C21214-20021201,
-        jiti:C21523-19700401 ;
-    dcterms:issue "2005-05-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C01233-20060301 ;
-    jitis:old jiti:C01233-19720401,
-        jiti:C01574-19700401 ;
-    dcterms:issue "2006-03-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C11210-20100323 ;
-    jitis:old jiti:C11210-19990601,
-        jiti:C11421-20100301,
-        jiti:C11424-19710401,
-        jiti:C11425-19841101 ;
-    dcterms:issue "2010-03-23"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C06428-20050701 ;
-    jitis:old jiti:C06421-20010604,
-        jiti:C06422-20050218 ;
-    dcterms:issue "2005-07-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C01555-20051001 ;
-    jitis:old jiti:C01554-19700401,
-        jiti:C01555-19700401,
-        jiti:C01556-19700401,
-        jiti:C01557-19700401 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C19368-20100308 ;
-    jitis:old jiti:C19361-20010309,
-        jiti:C19362-19700401 ;
-    dcterms:issue "2010-03-08"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C45431-20060101 ;
-    jitis:old jiti:C45423-19700401,
-        jiti:C45424-19700401,
-        jiti:C45425-19700401 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C01220-20050901 ;
-    jitis:old jiti:C01220-19780101,
-        jiti:C01466-19700401 ;
-    dcterms:issue "2005-09-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C41401-20060301 ;
-    jitis:old jiti:C41401-19761228,
-        jiti:C41402-19700401 ;
-    dcterms:issue "2006-03-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C43215-20060327 ;
-    jitis:old jiti:C43207-19700401,
-        jiti:C43209-19700401,
-        jiti:C43523-19700401,
-        jiti:C43526-19700401,
-        jiti:C43527-19700401,
-        jiti:C43528-19700401,
-        jiti:C43529-19700401,
-        jiti:C43530-19700401,
-        jiti:C43532-19760301,
-        jiti:C43533-19760301 ;
-    dcterms:issue "2006-03-27"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C47362-20060101 ;
-    jitis:old jiti:C47343-19970401,
-        jiti:C47344-19900301 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C27140-20060401,
-        jiti:C27141-20060401,
-        jiti:C27142-20060401,
-        jiti:C27143-20060401,
-        jiti:C27144-20060401,
-        jiti:C27145-20060401,
-        jiti:C27146-20060401,
-        jiti:C27147-20060401 ;
-    jitis:old jiti:C27201-20050201 ;
-    dcterms:issue "2006-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C44210-20051001 ;
-    jitis:old jiti:C44210-19700401,
-        jiti:C44301-19700401,
-        jiti:C44342-20040121 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C18209-20051001 ;
-    jitis:old jiti:C18203-19840501,
-        jiti:C18381-19840501 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C03214-20050901 ;
-    jitis:old jiti:C03304-19870201,
-        jiti:C03306-19801201,
-        jiti:C03308-20020401 ;
-    dcterms:issue "2005-09-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C20350-20051001 ;
-    jitis:old jiti:C20342-19891220,
-        jiti:C20347-19700401 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C45206-20060225 ;
-    jitis:old jiti:C45206-19930113,
-        jiti:C45422-19930113 ;
-    dcterms:issue "2006-02-25"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C12231-20100323 ;
-    jitis:old jiti:C12231-20010601,
-        jiti:C12325-19830801,
-        jiti:C12328-19830801 ;
-    dcterms:issue "2010-03-23"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C22203-20050401 ;
-    jitis:old jiti:C22203-20001101,
-        jiti:C22323-19700401 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C32202-20051001 ;
-    jitis:old jiti:C32202-19700401,
-        jiti:C32462-19700401,
-        jiti:C32463-19920904,
-        jiti:C32464-19700401,
-        jiti:C32465-19700401 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C22207-20100323 ;
-    jitis:old jiti:C22207-19700401,
-        jiti:C22361-19700401 ;
-    dcterms:issue "2010-03-23"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C02210-20060101 ;
-    jitis:old jiti:C02363-19780501,
-        jiti:C02365-19780501,
-        jiti:C02368-19700401 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C03208-20051001 ;
-    jitis:old jiti:C03208-19700401,
-        jiti:C03462-19700401 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C26213-20060101 ;
-    jitis:old jiti:C26382-19700401,
-        jiti:C26401-19880901,
-        jiti:C26402-19820401,
-        jiti:C26404-19700401 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C43201-20100323 ;
-    jitis:old jiti:C43201-20081006,
-        jiti:C43341-19940401,
-        jiti:C43385-19951201 ;
-    dcterms:issue "2010-03-23"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C28229-20051001 ;
-    jitis:old jiti:C28211-19700401,
-        jiti:C28461-19970101,
-        jiti:C28462-19700401,
-        jiti:C28463-19700401 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C03201-20060110 ;
-    jitis:old jiti:C03201-20001101,
-        jiti:C03307-20011201 ;
-    dcterms:issue "2006-01-10"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C15226-20051001 ;
-    jitis:old jiti:C15226-20041101,
-        jiti:C15462-19950329 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C23561-20051001 ;
-    jitis:old jiti:C23561-19700401,
-        jiti:C23565-19700401 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C46404-20060320 ;
-    jitis:old jiti:C46403-19700401,
-        jiti:C46404-19700401 ;
-    dcterms:issue "2006-03-20"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C46218-20051107 ;
-    jitis:old jiti:C46212-19850327,
-        jiti:C46444-20031014,
-        jiti:C46445-20031014,
-        jiti:C46448-19700401,
-        jiti:C46449-19700401,
-        jiti:C46450-19851220,
-        jiti:C46451-19981218 ;
-    dcterms:issue "2005-11-07"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C36204-20060320 ;
-    jitis:old jiti:C36204-19700401,
-        jiti:C36361-19961126,
-        jiti:C36362-19700401 ;
-    dcterms:issue "2006-03-20"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C20215-20050401 ;
-    jitis:old jiti:C20215-19950401,
-        jiti:C20424-19700401 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C22429-20050920 ;
-    jitis:old jiti:C22427-19700401,
-        jiti:C22428-19700401 ;
-    dcterms:issue "2005-09-20"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C25201-20060320 ;
-    jitis:old jiti:C25201-20010401,
-        jiti:C25301-19740101 ;
-    dcterms:issue "2006-03-20"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C06203-20051001 ;
-    jitis:old jiti:C06203-19990524,
-        jiti:C06423-20050218,
-        jiti:C06424-19980818,
-        jiti:C06425-19811201,
-        jiti:C06427-19780301,
-        jiti:C06441-19700401 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C40229-20070129 ;
-    jitis:old jiti:C40561-20010208,
-        jiti:C40564-19931213,
-        jiti:C40581-19990716 ;
-    dcterms:issue "2007-01-29"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C23231-20051001 ;
-    jitis:old jiti:C23231-20030820,
-        jiti:C23623-19710320 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C43201-20081006 ;
-    jitis:old jiti:C43201-19960401,
-        jiti:C43342-19910301 ;
-    dcterms:issue "2008-10-06"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C19211-20060801 ;
-    jitis:old jiti:C19211-20041012,
-        jiti:C19327-19700401 ;
-    dcterms:issue "2006-08-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C19201-20060301,
-        jiti:C19430-20060301 ;
-    jitis:old jiti:C19201-20001101,
-        jiti:C19326-19700401,
-        jiti:C19341-19700401,
-        jiti:C19430-20031115 ;
-    dcterms:issue "2006-03-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C22306-20050401 ;
-    jitis:old jiti:C22306-19700401,
-        jiti:C22307-19700401 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C12236-20060327 ;
-    jitis:old jiti:C12209-19960101,
-        jiti:C12344-19991001,
-        jiti:C12345-19991001,
-        jiti:C12346-19700401 ;
-    dcterms:issue "2006-03-27"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C43216-20060227 ;
-    jitis:old jiti:C43405-19990901,
-        jiti:C43407-19970901 ;
-    dcterms:issue "2006-02-27"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C28201-20060327 ;
-    jitis:old jiti:C28201-19960401,
-        jiti:C28421-19700401,
-        jiti:C28422-19830201,
-        jiti:C28444-19700401,
-        jiti:C28522-19700401 ;
-    dcterms:issue "2006-03-27"^^xsd:date .
 
 [] a jitis:Change ;
     jitis:new jiti:C36208-20060301 ;
@@ -10564,18 +9214,120 @@ jiti:C45201-20060101 a jitis:StandardAreaCode ;
     dcterms:issue "2006-03-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C12237-20060327 ;
-    jitis:old jiti:C12404-19870801,
-        jiti:C12405-19860401,
-        jiti:C12406-19931001,
-        jiti:C12407-20030301 ;
+    jitis:new jiti:C32203-20111001 ;
+    jitis:old jiti:C32203-20050322,
+        jiti:C32401-20030131 ;
+    dcterms:issue "2011-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C34213-20051103 ;
+    jitis:old jiti:C34213-20030301,
+        jiti:C34323-19850401 ;
+    dcterms:issue "2005-11-03"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C11349-20060201 ;
+    jitis:old jiti:C11344-19700401,
+        jiti:C11345-19700401 ;
+    dcterms:issue "2006-02-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C46224-20081101 ;
+    jitis:old jiti:C46209-20020624,
+        jiti:C46421-20020624 ;
+    dcterms:issue "2008-11-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C22130-20070401,
+        jiti:C22131-20070401,
+        jiti:C22132-20070401,
+        jiti:C22133-20070401,
+        jiti:C22134-20070401,
+        jiti:C22135-20070401,
+        jiti:C22136-20070401,
+        jiti:C22137-20070401 ;
+    jitis:old jiti:C22202-20050701 ;
+    dcterms:issue "2007-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C20407-20060101 ;
+    jitis:old jiti:C20407-19700401,
+        jiti:C20408-19700401 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C05348-20060320 ;
+    jitis:old jiti:C05341-20031014,
+        jiti:C05344-20051129,
+        jiti:C05345-20051129 ;
+    dcterms:issue "2006-03-20"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C42213-20051011 ;
+    jitis:old jiti:C42362-19700401,
+        jiti:C42363-19700401,
+        jiti:C42364-19830901,
+        jiti:C42365-19830901,
+        jiti:C42366-19700401,
+        jiti:C42367-19700401,
+        jiti:C42368-19700401 ;
+    dcterms:issue "2005-10-11"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C20201-20100101 ;
+    jitis:old jiti:C20201-20050101,
+        jiti:C20581-19700801,
+        jiti:C20589-19700801 ;
+    dcterms:issue "2010-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C39211-20060301 ;
+    jitis:old jiti:C39321-19930719,
+        jiti:C39322-19930719,
+        jiti:C39324-19970522,
+        jiti:C39325-19700401,
+        jiti:C39327-19790903 ;
+    dcterms:issue "2006-03-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C41206-20060301 ;
+    jitis:old jiti:C41206-19910124,
+        jiti:C41421-19760201,
+        jiti:C41422-19720401 ;
+    dcterms:issue "2006-03-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C03209-20110926 ;
+    jitis:old jiti:C03209-20050920,
+        jiti:C03422-19700401 ;
+    dcterms:issue "2011-09-26"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C41201-20071001 ;
+    jitis:old jiti:C41201-20051001,
+        jiti:C41302-19990610,
+        jiti:C41303-19930920,
+        jiti:C41304-19770915 ;
+    dcterms:issue "2007-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C40646-20051011 ;
+    jitis:old jiti:C40644-20021216,
+        jiti:C40645-19940223 ;
+    dcterms:issue "2005-10-11"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C21202-20060327 ;
+    jitis:old jiti:C21202-20030601,
+        jiti:C21342-19880701,
+        jiti:C21384-19791201 ;
     dcterms:issue "2006-03-27"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C16202-20051101 ;
-    jitis:old jiti:C16202-19970601,
-        jiti:C16422-19871101 ;
-    dcterms:issue "2005-11-01"^^xsd:date .
+    jitis:new jiti:C18483-20060303 ;
+    jitis:old jiti:C18462-19700401,
+        jiti:C18482-19700401 ;
+    dcterms:issue "2006-03-03"^^xsd:date .
 
 [] a jitis:Change ;
     jitis:new jiti:C15385-20050401 ;
@@ -10586,160 +9338,197 @@ jiti:C45201-20060101 a jitis:StandardAreaCode ;
     dcterms:issue "2005-04-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C38210-20050401 ;
-    jitis:old jiti:C38210-19700401,
-        jiti:C38404-19700401,
-        jiti:C38405-19700401 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C04216-20161010 ;
-    jitis:old jiti:C04423-20090401 ;
-    dcterms:issue "2016-10-10"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C19209-20060315 ;
-    jitis:old jiti:C19209-20041101,
-        jiti:C19407-19700401 ;
-    dcterms:issue "2006-03-15"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C11202-20051001 ;
-    jitis:old jiti:C11202-19960901,
-        jiti:C11401-20020401,
-        jiti:C11403-19960901 ;
+    jitis:new jiti:C09215-20051001 ;
+    jitis:old jiti:C09401-19971201,
+        jiti:C09402-19790301 ;
     dcterms:issue "2005-10-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C42203-20060101 ;
-    jitis:old jiti:C42203-19700401,
-        jiti:C42361-19700401 ;
+    jitis:new jiti:C04505-20060101 ;
+    jitis:old jiti:C04503-20031224,
+        jiti:C04504-20031224 ;
     dcterms:issue "2006-01-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C40646-20051011 ;
-    jitis:old jiti:C40644-20021216,
-        jiti:C40645-19940223 ;
-    dcterms:issue "2005-10-11"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C15227-20050901 ;
-    jitis:old jiti:C15310-20040327,
-        jiti:C15311-19941228 ;
-    dcterms:issue "2005-09-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C26407-20051011 ;
-    jitis:old jiti:C26403-19920519,
-        jiti:C26405-19920519,
-        jiti:C26406-19700401 ;
-    dcterms:issue "2005-10-11"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C42208-20060101 ;
-    jitis:old jiti:C42208-19700401,
-        jiti:C42386-19700401,
-        jiti:C42387-19750101 ;
+    jitis:new jiti:C03507-20060101 ;
+    jitis:old jiti:C03502-19700401,
+        jiti:C03505-19700401 ;
     dcterms:issue "2006-01-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C10429-20060327 ;
-    jitis:old jiti:C10422-20040601,
-        jiti:C10423-20040601 ;
-    dcterms:issue "2006-03-27"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C01236-20060201 ;
-    jitis:old jiti:C01335-20050124,
-        jiti:C01336-20050124 ;
+    jitis:new jiti:C23207-20060201 ;
+    jitis:old jiti:C23207-19890201,
+        jiti:C23602-19910401 ;
     dcterms:issue "2006-02-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C23563-20051127 ;
-    jitis:old jiti:C23563-19700401,
-        jiti:C23564-19700401 ;
-    dcterms:issue "2005-11-27"^^xsd:date .
+    jitis:new jiti:C39428-20060320 ;
+    jitis:old jiti:C39421-19700401,
+        jiti:C39423-20011116 ;
+    dcterms:issue "2006-03-20"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C46221-20060101 ;
-    jitis:old jiti:C46465-20000121,
-        jiti:C46466-19981218,
-        jiti:C46467-20040115 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
+    jitis:new jiti:C20432-20051101 ;
+    jitis:old jiti:C20421-19700401,
+        jiti:C20426-19700401,
+        jiti:C20427-19700401,
+        jiti:C20428-19700401 ;
+    dcterms:issue "2005-11-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C46216-20050501 ;
-    jitis:old jiti:C46362-19980603,
-        jiti:C46363-19980603,
-        jiti:C46366-20000913,
-        jiti:C46367-19930719 ;
-    dcterms:issue "2005-05-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C18322-20060213 ;
-    jitis:old jiti:C18321-19890201,
-        jiti:C18322-19951128,
-        jiti:C18323-19951128 ;
-    dcterms:issue "2006-02-13"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C15217-20050401 ;
-    jitis:old jiti:C15217-20050401 ;
-    dcterms:issue "2005-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C10211-20060318 ;
-    jitis:old jiti:C10211-20030601,
-        jiti:C10401-20030601 ;
-    dcterms:issue "2006-03-18"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C15202-20060101 ;
-    jitis:old jiti:C15202-20050401,
-        jiti:C15215-19700401,
-        jiti:C15403-19921223,
-        jiti:C15404-20051029,
-        jiti:C15406-20051029 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C10202-20061001 ;
-    jitis:old jiti:C10202-20060123,
-        jiti:C10321-19850401 ;
-    dcterms:issue "2006-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C01472-20100401,
-        jiti:C01520-20100401 ;
-    jitis:old jiti:C01439-19700401,
-        jiti:C01488-19700401 ;
-    dcterms:issue "2010-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C45201-20100323 ;
-    jitis:old jiti:C45201-20060101,
-        jiti:C45301-20020130 ;
+    jitis:new jiti:C45205-20100323 ;
+    jitis:old jiti:C45205-20060320,
+        jiti:C45362-19700401 ;
     dcterms:issue "2010-03-23"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C30203-20060301 ;
-    jitis:old jiti:C30203-19700401,
-        jiti:C30342-19700401 ;
-    dcterms:issue "2006-03-01"^^xsd:date .
+    jitis:new jiti:C09203-20111001 ;
+    jitis:old jiti:C09203-20100329,
+        jiti:C09321-19981201 ;
+    dcterms:issue "2011-10-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C01564-20060331 ;
-    jitis:old jiti:C01541-19700401,
-        jiti:C01542-19890601 ;
+    jitis:new jiti:C28209-20050401 ;
+    jitis:old jiti:C28209-19950301,
+        jiti:C28541-19700401,
+        jiti:C28542-19700401,
+        jiti:C28544-19760901,
+        jiti:C28561-19950301,
+        jiti:C28562-19740801 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C01346-20051001 ;
+    jitis:old jiti:C01346-19700401,
+        jiti:C01365-19700401 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C01584-20060327 ;
+    jitis:old jiti:C01572-19700401,
+        jiti:C01573-19700401 ;
+    dcterms:issue "2006-03-27"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C03215-20060220 ;
+    jitis:old jiti:C03204-20010701,
+        jiti:C03212-20000701,
+        jiti:C03382-20000701,
+        jiti:C03383-20010701,
+        jiti:C03384-19750601 ;
+    dcterms:issue "2006-02-20"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C30304-20060101 ;
+    jitis:old jiti:C30302-19700401,
+        jiti:C30303-19700401 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C30206-20050501 ;
+    jitis:old jiti:C30206-19700401,
+        jiti:C30387-19700401,
+        jiti:C30402-19700401,
+        jiti:C30403-19700401,
+        jiti:C30426-19700401 ;
+    dcterms:issue "2005-05-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C22100-20060331 ;
+    jitis:old jiti:C22100-20050401,
+        jiti:C22382-19700401 ;
     dcterms:issue "2006-03-31"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C20203-20060306 ;
-    jitis:old jiti:C20203-19960229,
-        jiti:C20341-20010514,
-        jiti:C20345-19700401,
-        jiti:C20346-19891220 ;
-    dcterms:issue "2006-03-06"^^xsd:date .
+    jitis:new jiti:C07447-20051001 ;
+    jitis:old jiti:C07441-19980601,
+        jiti:C07442-20011001,
+        jiti:C07443-19980601 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C04205-20060331 ;
+    jitis:old jiti:C04205-19930201,
+        jiti:C04604-19700401 ;
+    dcterms:issue "2006-03-31"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C05203-20051001 ;
+    jitis:old jiti:C05203-20050819,
+        jiti:C05441-19970917,
+        jiti:C05442-20040823,
+        jiti:C05443-20040823,
+        jiti:C05444-19770201,
+        jiti:C05445-20040331,
+        jiti:C05446-19700401,
+        jiti:C05447-20040329 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C15218-20060101 ;
+    jitis:old jiti:C15218-19741201,
+        jiti:C15322-19741201 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C23236-20100104,
+        jiti:C23521-20100104 ;
+    jitis:old jiti:C23521-19920401,
+        jiti:C23521-20100104 ;
+    dcterms:issue "2010-01-04"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C12215-20050701 ;
+    jitis:old jiti:C12215-20000401,
+        jiti:C12348-19980901,
+        jiti:C12361-20040601,
+        jiti:C12362-20040601 ;
+    dcterms:issue "2005-07-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C19368-20100308 ;
+    jitis:old jiti:C19361-20010309,
+        jiti:C19362-19700401 ;
+    dcterms:issue "2010-03-08"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C08233-20050902 ;
+    jitis:old jiti:C08421-20000601,
+        jiti:C08424-19971001,
+        jiti:C08425-20030201 ;
+    dcterms:issue "2005-09-02"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C46404-20060320 ;
+    jitis:old jiti:C46403-19700401,
+        jiti:C46404-19700401 ;
+    dcterms:issue "2006-03-20"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C07212-20060101 ;
+    jitis:old jiti:C07206-19700401,
+        jiti:C07562-19700401,
+        jiti:C07563-19700401 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C45201-20060101 ;
+    jitis:old jiti:C45201-20060101,
+        jiti:C45302-19980914,
+        jiti:C45381-20020130 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C30428-20050401 ;
+    jitis:old jiti:C30407-19700401,
+        jiti:C30423-19700401 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C16202-20051101 ;
+    jitis:old jiti:C16202-19970601,
+        jiti:C16422-19871101 ;
+    dcterms:issue "2005-11-01"^^xsd:date .
 
 [] a jitis:Change ;
     jitis:new jiti:C16201-20050401 ;
@@ -10753,102 +9542,86 @@ jiti:C45201-20060101 a jitis:StandardAreaCode ;
     dcterms:issue "2005-04-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C22221-20100323 ;
-    jitis:old jiti:C22221-20100316,
-        jiti:C22503-20100316 ;
-    dcterms:issue "2010-03-23"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C01206-20051011 ;
-    jitis:old jiti:C01206-19740901,
-        jiti:C01666-19700401,
-        jiti:C01669-19700401 ;
-    dcterms:issue "2005-10-11"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C28446-20051107 ;
-    jitis:old jiti:C28441-19700401,
-        jiti:C28445-19700401 ;
-    dcterms:issue "2005-11-07"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C07208-20060104 ;
-    jitis:old jiti:C07208-20040623,
-        jiti:C07401-19830601,
-        jiti:C07403-20040623,
-        jiti:C07404-19750901,
-        jiti:C07406-19850501 ;
-    dcterms:issue "2006-01-04"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C45203-20070331 ;
-    jitis:old jiti:C45203-20060220,
-        jiti:C45427-19721101 ;
-    dcterms:issue "2007-03-31"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C39210-20050410 ;
-    jitis:old jiti:C39207-20011116,
-        jiti:C39426-19700401 ;
-    dcterms:issue "2005-04-10"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C28501-20051001 ;
-    jitis:old jiti:C28501-19890701,
-        jiti:C28502-19890701,
-        jiti:C28503-19700401,
-        jiti:C28504-19700401 ;
-    dcterms:issue "2005-10-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C32501-20050925 ;
-    jitis:old jiti:C32501-19700401,
-        jiti:C32502-19700401 ;
-    dcterms:issue "2005-09-25"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C21201-20060101 ;
-    jitis:old jiti:C21201-20020301,
-        jiti:C21304-19921101 ;
-    dcterms:issue "2006-01-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C40228-20060320 ;
-    jitis:old jiti:C40209-19970423,
-        jiti:C40441-19700401,
-        jiti:C40442-20010312 ;
+    jitis:new jiti:C40625-20060320 ;
+    jitis:old jiti:C40622-19981020,
+        jiti:C40623-19780501,
+        jiti:C40624-19981020 ;
     dcterms:issue "2006-03-20"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C40210-20061001 ;
-    jitis:old jiti:C40210-19971226,
-        jiti:C40542-19700401 ;
-    dcterms:issue "2006-10-01"^^xsd:date .
+    jitis:new jiti:C11110-20050401 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C01610-20060331 ;
-    jitis:old jiti:C01605-19700401,
-        jiti:C01606-19700401 ;
-    dcterms:issue "2006-03-31"^^xsd:date .
+    jitis:new jiti:C09203-20100329 ;
+    jitis:old jiti:C09203-20050201,
+        jiti:C09365-20040701,
+        jiti:C09366-19900601,
+        jiti:C09368-20050201 ;
+    dcterms:issue "2010-03-29"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C07214-20070101 ;
-    jitis:old jiti:C07323-19790801,
-        jiti:C07324-19740901 ;
-    dcterms:issue "2007-01-01"^^xsd:date .
+    jitis:new jiti:C07213-20060101 ;
+    jitis:old jiti:C07302-19700415,
+        jiti:C07304-19810901,
+        jiti:C07305-19700401,
+        jiti:C07306-19900901,
+        jiti:C07307-19700401 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C23233-20091001 ;
-    jitis:old jiti:C23233-20050707,
-        jiti:C23345-19900401 ;
-    dcterms:issue "2009-10-01"^^xsd:date .
+    jitis:new jiti:C41209-20060101 ;
+    jitis:old jiti:C41442-19910124,
+        jiti:C41443-19710201 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C37205-20051011 ;
-    jitis:old jiti:C37205-19911001,
-        jiti:C37424-20001220,
-        jiti:C37428-20001220 ;
-    dcterms:issue "2005-10-11"^^xsd:date .
+    jitis:new jiti:C04212-20050401 ;
+    jitis:old jiti:C04541-20050317,
+        jiti:C04542-19940601,
+        jiti:C04543-19700401,
+        jiti:C04544-20010401,
+        jiti:C04545-19910601,
+        jiti:C04546-19940630,
+        jiti:C04547-20040130,
+        jiti:C04548-19910401,
+        jiti:C04602-19700401 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C37201-20060110 ;
+    jitis:old jiti:C37201-20050926,
+        jiti:C37343-19700401,
+        jiti:C37362-19700401,
+        jiti:C37363-19700401,
+        jiti:C37383-19750401 ;
+    dcterms:issue "2006-01-10"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C11246-20121001 ;
+    jitis:old jiti:C11445-19990901 ;
+    dcterms:issue "2012-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C46223-20071201 ;
+    jitis:old jiti:C46323-19700401,
+        jiti:C46344-19860324,
+        jiti:C46345-19860324 ;
+    dcterms:issue "2007-12-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C11100-20050401 ;
+    jitis:old jiti:C11100-20030401,
+        jiti:C11213-19880601 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C07205-20051107 ;
+    jitis:old jiti:C07205-20050819,
+        jiti:C07462-20050819,
+        jiti:C07463-19950911,
+        jiti:C07467-19930501 ;
+    dcterms:issue "2005-11-07"^^xsd:date .
 
 [] a jitis:Change ;
     jitis:new jiti:C10212-20060327 ;
@@ -10858,27 +9631,36 @@ jiti:C45201-20060101 a jitis:StandardAreaCode ;
     dcterms:issue "2006-03-27"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C39412-20060320 ;
-    jitis:old jiti:C39404-19700401,
-        jiti:C39422-19700401,
-        jiti:C39425-19700401 ;
-    dcterms:issue "2006-03-20"^^xsd:date .
+    jitis:new jiti:C08203-20060220 ;
+    jitis:old jiti:C08203-19880901,
+        jiti:C08465-19871201 ;
+    dcterms:issue "2006-02-20"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C20209-20060331 ;
-    jitis:old jiti:C20209-19920301,
-        jiti:C20381-19920301,
-        jiti:C20387-19700401 ;
-    dcterms:issue "2006-03-31"^^xsd:date .
+    jitis:new jiti:C23428-20060401 ;
+    jitis:old jiti:C23426-19790201,
+        jiti:C23428-19790201 ;
+    dcterms:issue "2006-04-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C20220-20051001 ;
-    jitis:old jiti:C20441-19910601,
-        jiti:C20461-19960401,
-        jiti:C20462-19930901,
-        jiti:C20466-19960401,
-        jiti:C20467-19861201 ;
+    jitis:new jiti:C09411-20051001 ;
+    jitis:old jiti:C09403-19700401,
+        jiti:C09404-19891201 ;
     dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C01208-20060305 ;
+    jitis:old jiti:C01208-19700401,
+        jiti:C01548-19700401,
+        jiti:C01551-19700401,
+        jiti:C01553-19700401 ;
+    dcterms:issue "2006-03-05"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C01236-20060201 ;
+    jitis:old jiti:C01335-20050124,
+        jiti:C01336-20050124 ;
+    dcterms:issue "2006-02-01"^^xsd:date .
 
 [] a jitis:Change ;
     jitis:new jiti:C45202-20060101 ;
@@ -10890,22 +9672,141 @@ jiti:C45201-20060101 a jitis:StandardAreaCode ;
     dcterms:issue "2006-01-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C28205-20060211 ;
-    jitis:old jiti:C28205-19700401,
-        jiti:C28685-19700401 ;
+    jitis:new jiti:C23213-20110401 ;
+    jitis:old jiti:C23213-19940331,
+        jiti:C23481-19731220,
+        jiti:C23482-19700401,
+        jiti:C23483-19700401 ;
+    dcterms:issue "2011-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C03205-20060101 ;
+    jitis:old jiti:C03205-20020301,
+        jiti:C03341-19750601,
+        jiti:C03342-20020301,
+        jiti:C03361-19741001 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C40226-20060211 ;
+    jitis:old jiti:C40403-19700401,
+        jiti:C40404-19700401 ;
     dcterms:issue "2006-02-11"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C09203-20111001 ;
-    jitis:old jiti:C09203-20100329,
-        jiti:C09321-19981201 ;
-    dcterms:issue "2011-10-01"^^xsd:date .
+    jitis:new jiti:C01371-20050901 ;
+    jitis:old jiti:C01366-19700401,
+        jiti:C01368-19700401,
+        jiti:C01369-19700401 ;
+    dcterms:issue "2005-09-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C20407-20090331 ;
-    jitis:old jiti:C20406-19700401,
-        jiti:C20407-20060101 ;
-    dcterms:issue "2009-03-31"^^xsd:date .
+    jitis:new jiti:C07210-20051201 ;
+    jitis:old jiti:C07210-19891016,
+        jiti:C07321-19960101,
+        jiti:C07325-19700401,
+        jiti:C07326-19821201 ;
+    dcterms:issue "2005-12-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C34100-20050425 ;
+    jitis:old jiti:C34100-19941024,
+        jiti:C34324-19700401 ;
+    dcterms:issue "2005-04-25"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C23211-20050401 ;
+    jitis:old jiti:C23211-20040501,
+        jiti:C23522-19780401,
+        jiti:C23523-19700401,
+        jiti:C23541-19700401,
+        jiti:C23543-19700401,
+        jiti:C23544-19700401,
+        jiti:C23545-20031001 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C46217-20050701 ;
+    jitis:old jiti:C46461-19981218,
+        jiti:C46463-19881217,
+        jiti:C46464-20000121 ;
+    dcterms:issue "2005-07-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C24472-20051001 ;
+    jitis:old jiti:C24464-19700401,
+        jiti:C24465-19700401 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C11206-20060101 ;
+    jitis:old jiti:C11206-19970901,
+        jiti:C11422-19820301 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C20212-20060101 ;
+    jitis:old jiti:C20212-19910401,
+        jiti:C20483-19700401,
+        jiti:C20484-19700401 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C43201-20100323 ;
+    jitis:old jiti:C43201-20081006,
+        jiti:C43341-19940401,
+        jiti:C43385-19951201 ;
+    dcterms:issue "2010-03-23"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C26100-20050401 ;
+    jitis:old jiti:C26100-20041220,
+        jiti:C26381-19700401 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C15227-20050901 ;
+    jitis:old jiti:C15310-20040327,
+        jiti:C15311-19941228 ;
+    dcterms:issue "2005-09-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C19214-20060220 ;
+    jitis:old jiti:C19328-19700401,
+        jiti:C19383-19920131,
+        jiti:C19385-19951031 ;
+    dcterms:issue "2006-02-20"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C03366-20051101 ;
+    jitis:old jiti:C03363-19700501,
+        jiti:C03365-19700501 ;
+    dcterms:issue "2005-11-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C22100-20081101 ;
+    jitis:old jiti:C22100-20050401,
+        jiti:C22383-19700401 ;
+    dcterms:issue "2008-11-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C32201-20110801 ;
+    jitis:old jiti:C32201-20050331,
+        jiti:C32304-19920525 ;
+    dcterms:issue "2011-08-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C22306-20050401 ;
+    jitis:old jiti:C22306-19700401,
+        jiti:C22307-19700401 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C46221-20060101 ;
+    jitis:old jiti:C46465-20000121,
+        jiti:C46466-19981218,
+        jiti:C46467-20040115 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
 
 [] a jitis:CodeChangeEvent ;
     dcterms:hasPart jiti:C01000-19700401,
@@ -12699,71 +11600,56 @@ jiti:C45201-20060101 a jitis:StandardAreaCode ;
     dcterms:issue "2016-10-10"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C45204-20090330 ;
-    jitis:old jiti:C45204-19700401,
-        jiti:C45321-19700401,
-        jiti:C45322-19700401 ;
-    dcterms:issue "2009-03-30"^^xsd:date .
+    jitis:new jiti:C10202-20061001 ;
+    jitis:old jiti:C10202-20060123,
+        jiti:C10321-19850401 ;
+    dcterms:issue "2006-10-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C37387-20060321 ;
-    jitis:old jiti:C37381-19840301,
-        jiti:C37382-19840301 ;
-    dcterms:issue "2006-03-21"^^xsd:date .
+    jitis:new jiti:C43201-20081006 ;
+    jitis:old jiti:C43201-19960401,
+        jiti:C43342-19910301 ;
+    dcterms:issue "2008-10-06"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C23237-20100322 ;
-    jitis:old jiti:C23421-19871001,
-        jiti:C23422-19900401,
-        jiti:C23423-19700401 ;
-    dcterms:issue "2010-03-22"^^xsd:date .
+    jitis:new jiti:C32505-20051001 ;
+    jitis:old jiti:C32503-19700401,
+        jiti:C32504-19700401 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C08233-20050902 ;
-    jitis:old jiti:C08421-20000601,
-        jiti:C08424-19971001,
-        jiti:C08425-20030201 ;
-    dcterms:issue "2005-09-02"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C20211-20050401 ;
-    jitis:old jiti:C20211-19700401,
-        jiti:C20601-19700401 ;
+    jitis:new jiti:C02201-20050401 ;
+    jitis:old jiti:C02201-19700401,
+        jiti:C02364-19830401 ;
     dcterms:issue "2005-04-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C22209-20080401 ;
-    jitis:old jiti:C22209-20050505,
-        jiti:C22426-19700401 ;
-    dcterms:issue "2008-04-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C12215-20050701 ;
-    jitis:old jiti:C12215-20000401,
-        jiti:C12348-19980901,
-        jiti:C12361-20040601,
-        jiti:C12362-20040601 ;
-    dcterms:issue "2005-07-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C11211-20060110 ;
-    jitis:old jiti:C11211-19980201,
-        jiti:C11382-19980601 ;
-    dcterms:issue "2006-01-10"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C41327-20060301 ;
-    jitis:old jiti:C41323-19910325,
-        jiti:C41324-19910325 ;
-    dcterms:issue "2006-03-01"^^xsd:date .
-
-[] a jitis:Change ;
-    jitis:new jiti:C29212-20060101 ;
-    jitis:old jiti:C29381-19960807,
-        jiti:C29382-19780101,
-        jiti:C29383-19960807,
-        jiti:C29384-19700401 ;
+    jitis:new jiti:C24201-20060101 ;
+    jitis:old jiti:C24201-20000615,
+        jiti:C24213-20001101,
+        jiti:C24381-20000615,
+        jiti:C24382-19850401,
+        jiti:C24383-19911210,
+        jiti:C24384-19850401,
+        jiti:C24402-19700401,
+        jiti:C24403-19991215,
+        jiti:C24404-20001101,
+        jiti:C24406-19700401 ;
     dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C03202-20050606 ;
+    jitis:old jiti:C03202-19700401,
+        jiti:C03481-19700401,
+        jiti:C03486-19700401 ;
+    dcterms:issue "2005-06-06"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C15213-20060320 ;
+    jitis:old jiti:C15213-19790201,
+        jiti:C15343-20050326,
+        jiti:C15344-19821220 ;
+    dcterms:issue "2006-03-20"^^xsd:date .
 
 [] a jitis:Change ;
     jitis:new jiti:C09201-20070331 ;
@@ -12773,30 +11659,221 @@ jiti:C45201-20060101 a jitis:StandardAreaCode ;
     dcterms:issue "2007-03-31"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C34207-20060301 ;
-    jitis:old jiti:C34207-20050201,
-        jiti:C34501-19700401 ;
-    dcterms:issue "2006-03-01"^^xsd:date .
+    jitis:new jiti:C23237-20100322 ;
+    jitis:old jiti:C23421-19871001,
+        jiti:C23422-19900401,
+        jiti:C23423-19700401 ;
+    dcterms:issue "2010-03-22"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C28226-20050401 ;
-    jitis:old jiti:C28681-19700401,
-        jiti:C28682-19970901,
-        jiti:C28683-19700401,
-        jiti:C28684-19700401,
-        jiti:C28686-19970901 ;
+    jitis:new jiti:C44210-20051001 ;
+    jitis:old jiti:C44210-19700401,
+        jiti:C44301-19700401,
+        jiti:C44342-20040121 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C28225-20050401 ;
+    jitis:old jiti:C28621-19730501,
+        jiti:C28622-19700401,
+        jiti:C28623-19700401,
+        jiti:C28624-19730501 ;
     dcterms:issue "2005-04-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C45205-20060320 ;
-    jitis:old jiti:C45205-19700601,
-        jiti:C45363-19700401 ;
+    jitis:new jiti:C37406-20060320 ;
+    jitis:old jiti:C37401-19700401,
+        jiti:C37402-19700401,
+        jiti:C37405-19900301 ;
     dcterms:issue "2006-03-20"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C30209-20060401 ;
-    jitis:old jiti:C30326-20020601 ;
-    dcterms:issue "2006-04-01"^^xsd:date .
+    jitis:new jiti:C43216-20060227 ;
+    jitis:old jiti:C43405-19990901,
+        jiti:C43407-19970901 ;
+    dcterms:issue "2006-02-27"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C26465-20060301 ;
+    jitis:old jiti:C26461-19700401,
+        jiti:C26462-19700401,
+        jiti:C26464-19700401 ;
+    dcterms:issue "2006-03-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C21204-20060123 ;
+    jitis:old jiti:C21204-19700401,
+        jiti:C21541-19700401 ;
+    dcterms:issue "2006-01-23"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C01206-20051011 ;
+    jitis:old jiti:C01206-19740901,
+        jiti:C01666-19700401,
+        jiti:C01669-19700401 ;
+    dcterms:issue "2005-10-11"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C22213-20050401 ;
+    jitis:old jiti:C22213-19931101,
+        jiti:C22442-19911001,
+        jiti:C22447-19991101 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C18205-20051107 ;
+    jitis:old jiti:C18205-19700701,
+        jiti:C18342-19700401 ;
+    dcterms:issue "2005-11-07"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C15205-20050501 ;
+    jitis:old jiti:C15205-19980311,
+        jiti:C15501-19850401,
+        jiti:C15505-20020316 ;
+    dcterms:issue "2005-05-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C38210-20050401 ;
+    jitis:old jiti:C38210-19700401,
+        jiti:C38404-19700401,
+        jiti:C38405-19700401 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C04215-20060331 ;
+    jitis:old jiti:C04204-20030201,
+        jiti:C04461-20011201,
+        jiti:C04462-19910401,
+        jiti:C04463-20030301,
+        jiti:C04481-19750801,
+        jiti:C04482-19700401,
+        jiti:C04502-20030310 ;
+    dcterms:issue "2006-03-31"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C01235-20051001 ;
+    jitis:old jiti:C01235-19960901,
+        jiti:C01305-19700401,
+        jiti:C01306-19700401 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C12410-20060327 ;
+    jitis:old jiti:C12381-20050901,
+        jiti:C12408-20030301 ;
+    dcterms:issue "2006-03-27"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C15204-20050501 ;
+    jitis:old jiti:C15204-20000318,
+        jiti:C15362-19700401,
+        jiti:C15363-20040320 ;
+    dcterms:issue "2005-05-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C20220-20051001 ;
+    jitis:old jiti:C20441-19910601,
+        jiti:C20461-19960401,
+        jiti:C20462-19930901,
+        jiti:C20466-19960401,
+        jiti:C20467-19861201 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C15202-20060101 ;
+    jitis:old jiti:C15202-20050401,
+        jiti:C15215-19700401,
+        jiti:C15403-19921223,
+        jiti:C15404-20051029,
+        jiti:C15406-20051029 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C28215-20051024 ;
+    jitis:old jiti:C28215-19990301,
+        jiti:C28321-19990301 ;
+    dcterms:issue "2005-10-24"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C12235-20060123 ;
+    jitis:old jiti:C12214-20000401,
+        jiti:C12382-19800501 ;
+    dcterms:issue "2006-01-23"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C01610-20060331 ;
+    jitis:old jiti:C01605-19700401,
+        jiti:C01606-19700401 ;
+    dcterms:issue "2006-03-31"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C04214-20050401 ;
+    jitis:old jiti:C04562-19981101,
+        jiti:C04566-19991201 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C23238-20120104 ;
+    jitis:old jiti:C23304-19880701 ;
+    dcterms:issue "2012-01-04"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C03202-20100101 ;
+    jitis:old jiti:C03202-20050606,
+        jiti:C03487-19700401 ;
+    dcterms:issue "2010-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C05202-20060321 ;
+    jitis:old jiti:C05202-20050218,
+        jiti:C05342-19731101 ;
+    dcterms:issue "2006-03-21"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C45206-20060225 ;
+    jitis:old jiti:C45206-19930113,
+        jiti:C45422-19930113 ;
+    dcterms:issue "2006-02-25"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C20205-20051001 ;
+    jitis:old jiti:C20205-19930701,
+        jiti:C20418-19700401,
+        jiti:C20419-19700401 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C05349-20060327 ;
+    jitis:old jiti:C05343-19700401,
+        jiti:C05347-19851201 ;
+    dcterms:issue "2006-03-27"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C24543-20051011 ;
+    jitis:old jiti:C24541-19700801,
+        jiti:C24542-19700401 ;
+    dcterms:issue "2005-10-11"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C01220-20050901 ;
+    jitis:old jiti:C01220-19780101,
+        jiti:C01466-19700401 ;
+    dcterms:issue "2005-09-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C46225-20100323 ;
+    jitis:old jiti:C46441-19700401,
+        jiti:C46442-19700401,
+        jiti:C46443-19700401 ;
+    dcterms:issue "2010-03-23"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C12231-20100323 ;
+    jitis:old jiti:C12231-20010601,
+        jiti:C12325-19830801,
+        jiti:C12328-19830801 ;
+    dcterms:issue "2010-03-23"^^xsd:date .
 
 [] a jitis:Change ;
     jitis:new jiti:C42212-20050401 ;
@@ -12808,26 +11885,949 @@ jiti:C45201-20060101 a jitis:StandardAreaCode ;
     dcterms:issue "2005-04-01"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C17212-20111111 ;
-    jitis:old jiti:C17344-19990501 ;
-    dcterms:issue "2011-11-11"^^xsd:date .
+    jitis:new jiti:C12234-20060320 ;
+    jitis:old jiti:C12461-19700401,
+        jiti:C12462-19700401,
+        jiti:C12464-19750701,
+        jiti:C12465-19700401,
+        jiti:C12466-20050901,
+        jiti:C12467-20050901,
+        jiti:C12468-19760901 ;
+    dcterms:issue "2006-03-20"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C22214-20090101 ;
-    jitis:old jiti:C22214-20060124,
-        jiti:C22401-20060124 ;
-    dcterms:issue "2009-01-01"^^xsd:date .
+    jitis:new jiti:C05215-20050920 ;
+    jitis:old jiti:C05423-20040130,
+        jiti:C05426-19930501,
+        jiti:C05430-19930501 ;
+    dcterms:issue "2005-09-20"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C42202-20060331 ;
-    jitis:old jiti:C42202-20050401,
-        jiti:C42384-19700401,
-        jiti:C42390-19700401 ;
+    jitis:new jiti:C33201-20070122 ;
+    jitis:old jiti:C33201-20050322,
+        jiti:C33303-19700401,
+        jiti:C33321-19941024 ;
+    dcterms:issue "2007-01-22"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C10201-20090505 ;
+    jitis:old jiti:C10201-20090401,
+        jiti:C10303-19981101 ;
+    dcterms:issue "2009-05-05"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C08236-20060327 ;
+    jitis:old jiti:C08303-20030201,
+        jiti:C08304-19910201,
+        jiti:C08462-19790501 ;
+    dcterms:issue "2006-03-27"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C11202-20051001 ;
+    jitis:old jiti:C11202-19960901,
+        jiti:C11401-20020401,
+        jiti:C11403-19960901 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C24562-20060110 ;
+    jitis:old jiti:C24562-19700401,
+        jiti:C24564-19700401 ;
+    dcterms:issue "2006-01-10"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C01221-20060327 ;
+    jitis:old jiti:C01221-19700401,
+        jiti:C01467-19700401 ;
+    dcterms:issue "2006-03-27"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C22207-20100323 ;
+    jitis:old jiti:C22207-19700401,
+        jiti:C22361-19700401 ;
+    dcterms:issue "2010-03-23"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C23202-20060101 ;
+    jitis:old jiti:C23202-20040401,
+        jiti:C23502-19920331 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C37201-20060110 ;
+    jitis:old jiti:C37201-20050926,
+        jiti:C37342-19700401 ;
+    dcterms:issue "2006-01-10"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C24212-20051101 ;
+    jitis:old jiti:C24212-19831001,
+        jiti:C24563-19700401 ;
+    dcterms:issue "2005-11-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C11202-20070213 ;
+    jitis:old jiti:C11202-20051001,
+        jiti:C11402-19950301 ;
+    dcterms:issue "2007-02-13"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C42203-20060101 ;
+    jitis:old jiti:C42203-19700401,
+        jiti:C42361-19700401 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C28365-20051101 ;
+    jitis:old jiti:C28361-19980601,
+        jiti:C28362-19700401,
+        jiti:C28363-19700401 ;
+    dcterms:issue "2005-11-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C43206-20051003 ;
+    jitis:old jiti:C43206-19951201,
+        jiti:C43361-19951201,
+        jiti:C43362-19740501,
+        jiti:C43363-19700401 ;
+    dcterms:issue "2005-10-03"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C12211-20060327 ;
+    jitis:old jiti:C12211-20050701,
+        jiti:C12341-19761201,
+        jiti:C12343-19941001 ;
+    dcterms:issue "2006-03-27"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C41210-20060320 ;
+    jitis:old jiti:C41321-19940922,
+        jiti:C41322-19950608,
+        jiti:C41325-19811201 ;
+    dcterms:issue "2006-03-20"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C08216-20060319 ;
+    jitis:old jiti:C08216-19970501,
+        jiti:C08321-19970501,
+        jiti:C08322-19890601 ;
+    dcterms:issue "2006-03-19"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C24441-20060101 ;
+    jitis:old jiti:C24441-19880601,
+        jiti:C24444-19830401 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C22221-20100323 ;
+    jitis:old jiti:C22221-20100316,
+        jiti:C22503-20100316 ;
+    dcterms:issue "2010-03-23"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C23221-20051001 ;
+    jitis:old jiti:C23221-19910401,
+        jiti:C23581-19700401,
+        jiti:C23582-19700401 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C10202-20060123 ;
+    jitis:old jiti:C10202-20010401,
+        jiti:C10322-19960701,
+        jiti:C10323-19950701,
+        jiti:C10324-19981101,
+        jiti:C10361-19700401 ;
+    dcterms:issue "2006-01-23"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C46492-20050701 ;
+    jitis:old jiti:C46483-19700401,
+        jiti:C46484-20031128 ;
+    dcterms:issue "2005-07-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C14209-20060320 ;
+    jitis:old jiti:C14209-20041201,
+        jiti:C14422-19700401,
+        jiti:C14423-19701201 ;
+    dcterms:issue "2006-03-20"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C30203-20060301 ;
+    jitis:old jiti:C30203-19700401,
+        jiti:C30342-19700401 ;
+    dcterms:issue "2006-03-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C01601-20060301 ;
+    jitis:old jiti:C01601-19700401,
+        jiti:C01603-19700401 ;
+    dcterms:issue "2006-03-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C42202-20050401 ;
+    jitis:old jiti:C42202-20010401,
+        jiti:C42392-19700401,
+        jiti:C42393-19700401 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C15202-20050401 ;
+    jitis:old jiti:C15202-20050319,
+        jiti:C15364-20050326,
+        jiti:C15401-19970222,
+        jiti:C15402-20011117,
+        jiti:C15421-19821126,
+        jiti:C15502-19700401 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C11217-20051001 ;
+    jitis:old jiti:C11217-19700401,
+        jiti:C11304-19701201,
+        jiti:C11423-20010501 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C25425-20060213 ;
+    jitis:old jiti:C25423-19841201,
+        jiti:C25424-19840301 ;
+    dcterms:issue "2006-02-13"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C15212-20080401 ;
+    jitis:old jiti:C15212-20030326,
+        jiti:C15582-20040327,
+        jiti:C15583-20040327,
+        jiti:C15584-19751201,
+        jiti:C15585-19700401 ;
+    dcterms:issue "2008-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C26201-20060101 ;
+    jitis:old jiti:C26201-19980312,
+        jiti:C26421-19791201,
+        jiti:C26422-19910316,
+        jiti:C26441-19700401 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C22225-20050401 ;
+    jitis:old jiti:C22321-19700401,
+        jiti:C22326-19960801,
+        jiti:C22327-19700401 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C15226-20051001 ;
+    jitis:old jiti:C15226-20041101,
+        jiti:C15462-19950329 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C42201-20060104 ;
+    jitis:old jiti:C42201-20050104,
+        jiti:C42309-19700401 ;
+    dcterms:issue "2006-01-04"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C25201-20060320 ;
+    jitis:old jiti:C25201-20010401,
+        jiti:C25301-19740101 ;
+    dcterms:issue "2006-03-20"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C43202-20050801 ;
+    jitis:old jiti:C43202-19761201,
+        jiti:C43461-19700401,
+        jiti:C43462-19850301,
+        jiti:C43463-19850301,
+        jiti:C43466-19700401,
+        jiti:C43467-19700401 ;
+    dcterms:issue "2005-08-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C26214-20070312 ;
+    jitis:old jiti:C26361-19700401,
+        jiti:C26362-19790501,
+        jiti:C26363-19700401 ;
+    dcterms:issue "2007-03-12"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C09206-20060320 ;
+    jitis:old jiti:C09206-19700401,
+        jiti:C09207-20040801,
+        jiti:C09323-19820401,
+        jiti:C09382-19700401,
+        jiti:C09383-19700401 ;
+    dcterms:issue "2006-03-20"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C11210-20100323 ;
+    jitis:old jiti:C11210-19990601,
+        jiti:C11421-20100301,
+        jiti:C11424-19710401,
+        jiti:C11425-19841101 ;
+    dcterms:issue "2010-03-23"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C20203-20060306 ;
+    jitis:old jiti:C20203-19960229,
+        jiti:C20341-20010514,
+        jiti:C20345-19700401,
+        jiti:C20346-19891220 ;
+    dcterms:issue "2006-03-06"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C35203-20100116 ;
+    jitis:old jiti:C35203-20051001,
+        jiti:C35504-19700401 ;
+    dcterms:issue "2010-01-16"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C23232-20050401 ;
+    jitis:old jiti:C23429-19780301,
+        jiti:C23430-19781130,
+        jiti:C23431-19781130,
+        jiti:C23432-20040201 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C47215-20060101 ;
+    jitis:old jiti:C47345-20020909,
+        jiti:C47346-20020909,
+        jiti:C47347-19800601,
+        jiti:C47349-19930301 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C22429-20050920 ;
+    jitis:old jiti:C22427-19700401,
+        jiti:C22428-19700401 ;
+    dcterms:issue "2005-09-20"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C23220-20050401 ;
+    jitis:old jiti:C23220-19800801,
+        jiti:C23401-19830228,
+        jiti:C23402-20040201 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C40210-20061001 ;
+    jitis:old jiti:C40210-19971226,
+        jiti:C40542-19700401 ;
+    dcterms:issue "2006-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C08204-20050912 ;
+    jitis:old jiti:C08204-19700401,
+        jiti:C08541-19950101,
+        jiti:C08543-19840901 ;
+    dcterms:issue "2005-09-12"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C23561-20051001 ;
+    jitis:old jiti:C23561-19700401,
+        jiti:C23565-19700401 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C30209-20060401 ;
+    jitis:old jiti:C30326-20020601 ;
+    dcterms:issue "2006-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C25203-20060213 ;
+    jitis:old jiti:C25203-19861001,
+        jiti:C25481-19830901,
+        jiti:C25484-19860610 ;
+    dcterms:issue "2006-02-13"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C23207-20080115 ;
+    jitis:old jiti:C23207-20060201,
+        jiti:C23601-19700401,
+        jiti:C23604-19880401 ;
+    dcterms:issue "2008-01-15"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C46505-20071001 ;
+    jitis:old jiti:C46503-19700401,
+        jiti:C46504-19700401 ;
+    dcterms:issue "2007-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C26407-20051011 ;
+    jitis:old jiti:C26403-19920519,
+        jiti:C26405-19920519,
+        jiti:C26406-19700401 ;
+    dcterms:issue "2005-10-11"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C10211-20060318 ;
+    jitis:old jiti:C10211-20030601,
+        jiti:C10401-20030601 ;
+    dcterms:issue "2006-03-18"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C40610-20060306 ;
+    jitis:old jiti:C40603-19700401,
+        jiti:C40606-20021203,
+        jiti:C40607-19800401 ;
+    dcterms:issue "2006-03-06"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C17384-20050901 ;
+    jitis:old jiti:C17382-19700401,
+        jiti:C17384-20010301 ;
+    dcterms:issue "2005-09-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C01585-20060327 ;
+    jitis:old jiti:C01579-19700401,
+        jiti:C01580-19700401 ;
+    dcterms:issue "2006-03-27"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C35203-20051001 ;
+    jitis:old jiti:C35203-20000531,
+        jiti:C35381-19700401,
+        jiti:C35401-20000531,
+        jiti:C35402-19971001,
+        jiti:C35403-19961030 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C37205-20051011 ;
+    jitis:old jiti:C37205-19911001,
+        jiti:C37424-20001220,
+        jiti:C37428-20001220 ;
+    dcterms:issue "2005-10-11"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C14209-20070311 ;
+    jitis:old jiti:C14209-20060320,
+        jiti:C14421-19700401 ;
+    dcterms:issue "2007-03-11"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C30392-20050501 ;
+    jitis:old jiti:C30384-19700401,
+        jiti:C30385-19700401,
+        jiti:C30386-19700401 ;
+    dcterms:issue "2005-05-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C08211-20060101 ;
+    jitis:old jiti:C08211-20060101 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C45204-20090330 ;
+    jitis:old jiti:C45204-19700401,
+        jiti:C45321-19700401,
+        jiti:C45322-19700401 ;
+    dcterms:issue "2009-03-30"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C10210-20060327 ;
+    jitis:old jiti:C10210-19920701,
+        jiti:C10381-20030601 ;
+    dcterms:issue "2006-03-27"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C45431-20060101 ;
+    jitis:old jiti:C45423-19700401,
+        jiti:C45424-19700401,
+        jiti:C45425-19700401 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C03214-20050901 ;
+    jitis:old jiti:C03304-19870201,
+        jiti:C03306-19801201,
+        jiti:C03308-20020401 ;
+    dcterms:issue "2005-09-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C01345-20050401 ;
+    jitis:old jiti:C01344-19700901,
+        jiti:C01345-19700401 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C29207-20050925 ;
+    jitis:old jiti:C29207-19940114,
+        jiti:C29445-19940114,
+        jiti:C29448-19700401 ;
+    dcterms:issue "2005-09-25"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C29212-20060101 ;
+    jitis:old jiti:C29381-19960807,
+        jiti:C29382-19780101,
+        jiti:C29383-19960807,
+        jiti:C29384-19700401 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C42208-20060101 ;
+    jitis:old jiti:C42208-19700401,
+        jiti:C42386-19700401,
+        jiti:C42387-19750101 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C33346-20060301 ;
+    jitis:old jiti:C33345-19700401,
+        jiti:C33346-19700401 ;
+    dcterms:issue "2006-03-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C28229-20051001 ;
+    jitis:old jiti:C28211-19700401,
+        jiti:C28461-19970101,
+        jiti:C28462-19700401,
+        jiti:C28463-19700401 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C11218-20060101 ;
+    jitis:old jiti:C11218-19810701,
+        jiti:C11405-19910701,
+        jiti:C11406-19940601,
+        jiti:C11407-19830601 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C29201-20050401 ;
+    jitis:old jiti:C29201-20020401,
+        jiti:C29301-19961113,
+        jiti:C29321-19911024 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C01643-20060206 ;
+    jitis:old jiti:C01640-19700401,
+        jiti:C01643-19700401 ;
+    dcterms:issue "2006-02-06"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C23207-20100201 ;
+    jitis:old jiti:C23207-20060201,
+        jiti:C23603-19700401 ;
+    dcterms:issue "2010-02-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C23234-20060320 ;
+    jitis:old jiti:C23343-19720810,
+        jiti:C23344-19981001 ;
+    dcterms:issue "2006-03-20"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C41327-20060301 ;
+    jitis:old jiti:C41323-19910325,
+        jiti:C41324-19910325 ;
+    dcterms:issue "2006-03-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C08205-20051001 ;
+    jitis:old jiti:C08205-19931001,
+        jiti:C08463-19931001 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C40205-20060326 ;
+    jitis:old jiti:C40205-19991206,
+        jiti:C40425-19740901,
+        jiti:C40426-19940913,
+        jiti:C40427-19720801,
+        jiti:C40428-19991206 ;
+    dcterms:issue "2006-03-26"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C40229-20070129 ;
+    jitis:old jiti:C40561-20010208,
+        jiti:C40564-19931213,
+        jiti:C40581-19990716 ;
+    dcterms:issue "2007-01-29"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C11365-20051001 ;
+    jitis:old jiti:C11365-19700401,
+        jiti:C11366-19700401 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C10209-20060101 ;
+    jitis:old jiti:C10209-19790101,
+        jiti:C10362-19700401 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C34207-20060301 ;
+    jitis:old jiti:C34207-20050201,
+        jiti:C34501-19700401 ;
+    dcterms:issue "2006-03-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C03208-20051001 ;
+    jitis:old jiti:C03208-19700401,
+        jiti:C03462-19700401 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C30401-20060301 ;
+    jitis:old jiti:C30401-19700401,
+        jiti:C30405-19700401 ;
+    dcterms:issue "2006-03-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C08235-20060327 ;
+    jitis:old jiti:C08482-20031201,
+        jiti:C08483-20031201 ;
+    dcterms:issue "2006-03-27"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C08210-20060101 ;
+    jitis:old jiti:C08210-19841201,
+        jiti:C08522-19850301 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C01564-20060331 ;
+    jitis:old jiti:C01541-19700401,
+        jiti:C01542-19890601 ;
     dcterms:issue "2006-03-31"^^xsd:date .
 
 [] a jitis:Change ;
-    jitis:new jiti:C03209-20110926 ;
-    jitis:old jiti:C03209-20050920,
-        jiti:C03422-19700401 ;
-    dcterms:issue "2011-09-26"^^xsd:date .
+    jitis:new jiti:C38442-20050401 ;
+    jitis:old jiti:C38442-19700401,
+        jiti:C38443-19700401,
+        jiti:C38444-19700401 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C28585-20050401 ;
+    jitis:old jiti:C28543-19700401,
+        jiti:C28581-19870101,
+        jiti:C28583-19870101 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C42202-20100331 ;
+    jitis:old jiti:C42202-20050401,
+        jiti:C42388-19700401,
+        jiti:C42389-19700401 ;
+    dcterms:issue "2010-03-31"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C37387-20060321 ;
+    jitis:old jiti:C37381-19840301,
+        jiti:C37382-19840301 ;
+    dcterms:issue "2006-03-21"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C28213-20051001 ;
+    jitis:old jiti:C28213-19980601,
+        jiti:C28364-19700401 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C46220-20051107 ;
+    jitis:old jiti:C46211-19760714,
+        jiti:C46341-19700401,
+        jiti:C46342-19760714,
+        jiti:C46343-19911119,
+        jiti:C46368-19930719 ;
+    dcterms:issue "2005-11-07"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C18210-20060320 ;
+    jitis:old jiti:C18361-19940303,
+        jiti:C18364-19941027,
+        jiti:C18365-20050113,
+        jiti:C18366-20050113 ;
+    dcterms:issue "2006-03-20"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C37324-20060321 ;
+    jitis:old jiti:C37321-19700401,
+        jiti:C37323-19700401 ;
+    dcterms:issue "2006-03-21"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C01472-20100401,
+        jiti:C01520-20100401 ;
+    jitis:old jiti:C01439-19700401,
+        jiti:C01488-19700401 ;
+    dcterms:issue "2010-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C19201-20060301,
+        jiti:C19430-20060301 ;
+    jitis:old jiti:C19201-20001101,
+        jiti:C19326-19700401,
+        jiti:C19341-19700401,
+        jiti:C19430-20031115 ;
+    dcterms:issue "2006-03-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C05214-20051001 ;
+    jitis:old jiti:C05401-20010604,
+        jiti:C05402-20010604,
+        jiti:C05403-19790301 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C01586-20060327 ;
+    jitis:old jiti:C01582-19800301,
+        jiti:C01583-19800301 ;
+    dcterms:issue "2006-03-27"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C15217-20050401 ;
+    jitis:old jiti:C15217-20050401 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C14150-20100401,
+        jiti:C14151-20100401,
+        jiti:C14152-20100401,
+        jiti:C14153-20100401 ;
+    jitis:old jiti:C14209-20060320 ;
+    dcterms:issue "2010-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C11211-20060110 ;
+    jitis:old jiti:C11211-19980201,
+        jiti:C11382-19980601 ;
+    dcterms:issue "2006-01-10"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C38203-20050801 ;
+    jitis:old jiti:C38203-19740401,
+        jiti:C38481-19700401,
+        jiti:C38482-19700401,
+        jiti:C38486-19700401 ;
+    dcterms:issue "2005-08-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C39387-20050801 ;
+    jitis:old jiti:C39382-19700401,
+        jiti:C39384-19700401,
+        jiti:C39409-19700401 ;
+    dcterms:issue "2005-08-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C40228-20060320 ;
+    jitis:old jiti:C40209-19970423,
+        jiti:C40441-19700401,
+        jiti:C40442-20010312 ;
+    dcterms:issue "2006-03-20"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C18322-20060213 ;
+    jitis:old jiti:C18321-19890201,
+        jiti:C18322-19951128,
+        jiti:C18323-19951128 ;
+    dcterms:issue "2006-02-13"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C36489-20060301 ;
+    jitis:old jiti:C36482-19700401,
+        jiti:C36486-19700401 ;
+    dcterms:issue "2006-03-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C30208-20051107 ;
+    jitis:old jiti:C30321-20020601,
+        jiti:C30322-19700401,
+        jiti:C30323-19700401,
+        jiti:C30324-19700401,
+        jiti:C30325-19700401 ;
+    dcterms:issue "2005-11-07"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C30202-20050401 ;
+    jitis:old jiti:C30202-19700401,
+        jiti:C30301-19700401 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C46216-20050501 ;
+    jitis:old jiti:C46362-19980603,
+        jiti:C46363-19980603,
+        jiti:C46366-20000913,
+        jiti:C46367-19930719 ;
+    dcterms:issue "2005-05-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C32202-20051001 ;
+    jitis:old jiti:C32202-19700401,
+        jiti:C32462-19700401,
+        jiti:C32463-19920904,
+        jiti:C32464-19700401,
+        jiti:C32465-19700401 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C09203-20140405 ;
+    jitis:old jiti:C09203-20100329,
+        jiti:C09367-19941201 ;
+    dcterms:issue "2014-04-05"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C06428-20050701 ;
+    jitis:old jiti:C06421-20010604,
+        jiti:C06422-20050218 ;
+    dcterms:issue "2005-07-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C07202-20051101 ;
+    jitis:old jiti:C07202-20041101,
+        jiti:C07424-20020123 ;
+    dcterms:issue "2005-11-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C25214-20051001 ;
+    jitis:old jiti:C25214-20050214,
+        jiti:C25464-19930129 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C30207-20051001 ;
+    jitis:old jiti:C30207-19700401,
+        jiti:C30425-19700401 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C24203-20051101 ;
+    jitis:old jiti:C24203-20011101,
+        jiti:C24462-19700401,
+        jiti:C24463-19811001,
+        jiti:C24468-19821001 ;
+    dcterms:issue "2005-11-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C07214-20070101 ;
+    jitis:old jiti:C07323-19790801,
+        jiti:C07324-19740901 ;
+    dcterms:issue "2007-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C44213-20051001 ;
+    jitis:old jiti:C44362-19790301,
+        jiti:C44363-19700401,
+        jiti:C44364-19810101 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C23233-20050707 ;
+    jitis:old jiti:C23341-19700401,
+        jiti:C23346-19840801,
+        jiti:C23347-19710520 ;
+    dcterms:issue "2005-07-07"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C02210-20060101 ;
+    jitis:old jiti:C02363-19780501,
+        jiti:C02365-19780501,
+        jiti:C02368-19700401 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C18201-20060201 ;
+    jitis:old jiti:C18201-20020515,
+        jiti:C18302-19700401,
+        jiti:C18424-19700401,
+        jiti:C18426-20020515 ;
+    dcterms:issue "2006-02-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C46210-20060101 ;
+    jitis:old jiti:C46210-19700401,
+        jiti:C46322-19820401,
+        jiti:C46324-19820401 ;
+    dcterms:issue "2006-01-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C33202-20050801 ;
+    jitis:old jiti:C33202-20020401,
+        jiti:C33441-19700401,
+        jiti:C33503-19700401 ;
+    dcterms:issue "2005-08-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C45205-20060320 ;
+    jitis:old jiti:C45205-19700601,
+        jiti:C45363-19700401 ;
+    dcterms:issue "2006-03-20"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C11232-20100323 ;
+    jitis:old jiti:C11232-19920801,
+        jiti:C11446-20100301,
+        jiti:C11461-19750601,
+        jiti:C11462-19700401 ;
+    dcterms:issue "2010-03-23"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C22216-20050401 ;
+    jitis:old jiti:C22216-20040331,
+        jiti:C22481-20040331 ;
+    dcterms:issue "2005-04-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C37201-20050926 ;
+    jitis:old jiti:C37201-20021204,
+        jiti:C37361-19700401 ;
+    dcterms:issue "2005-09-26"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C45203-20060220 ;
+    jitis:old jiti:C45203-19700401,
+        jiti:C45426-19701103,
+        jiti:C45428-19721101 ;
+    dcterms:issue "2006-02-20"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C46222-20060320 ;
+    jitis:old jiti:C46207-19700401,
+        jiti:C46526-19700401,
+        jiti:C46528-19700401 ;
+    dcterms:issue "2006-03-20"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C16207-20060331 ;
+    jitis:old jiti:C16207-19890601,
+        jiti:C16341-19810511 ;
+    dcterms:issue "2006-03-31"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C41201-20051001 ;
+    jitis:old jiti:C41201-19990610,
+        jiti:C41301-19940228,
+        jiti:C41305-19981218,
+        jiti:C41306-19960401,
+        jiti:C41326-19860201 ;
+    dcterms:issue "2005-10-01"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C07208-20060104 ;
+    jitis:old jiti:C07208-20040623,
+        jiti:C07401-19830601,
+        jiti:C07403-20040623,
+        jiti:C07404-19750901,
+        jiti:C07406-19850501 ;
+    dcterms:issue "2006-01-04"^^xsd:date .
+
+[] a jitis:Change ;
+    jitis:new jiti:C25204-20100321 ;
+    jitis:old jiti:C25204-20070928,
+        jiti:C25381-20060401 ;
+    dcterms:issue "2010-03-21"^^xsd:date .
 
