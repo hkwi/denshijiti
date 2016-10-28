@@ -16,7 +16,7 @@ git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
 git config user.name "Hiroaki KAWAI Trais"
 git config user.email "hiroaki.kawai@gmail.com"
 
-git checkout master .
+git checkout master
 cp $TRAVIS_BUILD_DIR/code.ttl docs/
 git add docs/code.ttl
 git commit -m "auto"
