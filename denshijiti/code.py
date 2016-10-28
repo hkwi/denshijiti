@@ -206,7 +206,7 @@ for ri, r in t.sort_values(["date","cid"]).iterrows():
 # In[10]:
 
 cs = rdflib.BNode()
-g.add((cs, rdflib.RDF["type"], JITIS["CodeSet"]))
+g.add((cs, rdflib.RDF["type"], JITIS["CodeChangeEvent"]))
 g.add((cs, rdflib.namespace.DCTERMS["issue"], rdflib.Literal(last_date.strftime("%Y-%m-%d"), datatype=rdflib.XSD.date)))
 
 

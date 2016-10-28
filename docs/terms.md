@@ -13,7 +13,7 @@ e-stat「標準地域コード」での定義と同様。
 
 よみがな
 
-# Change
+# CodeChangeEvent
 
 変更履歴の変更単位一つ
 
