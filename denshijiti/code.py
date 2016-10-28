@@ -147,9 +147,10 @@ for ri, r in t.sort_values(["date","cid"]).iterrows():
     last_date = r["date"]
     
     if cid != r["cid"]:
-        ev = rdflib.BNode()
-        g.add((ev, rdflib.RDF["type"], JITIS["Change"]))
-        g.add((ev, rdflib.namespace.DCTERMS["issue"], rdflib.Literal(r["date"].strftime("%Y-%m-%d"), datatype=rdflib.XSD.date)))
+        dtstr = r["date"].strftime("%Y-%m-%d")
+        ev = rdflib.BNode("_:ev%s-%02d" % (dtstr,cid))
+        g.add((ev, rdflib.RDF["type"], JITIS["CodeChangeEvent"]))
+        g.add((ev, rdflib.namespace.DCTERMS["issue"], rdflib.Literal(dtstr, datatype=rdflib.XSD.date)))
         cid = r["cid"]
     
     if not math.isnan(r["改正前コード"]):
@@ -205,9 +206,10 @@ for ri, r in t.sort_values(["date","cid"]).iterrows():
 
 # In[10]:
 
-cs = rdflib.BNode()
-g.add((cs, rdflib.RDF["type"], JITIS["CodeChangeEvent"]))
-g.add((cs, rdflib.namespace.DCTERMS["issue"], rdflib.Literal(last_date.strftime("%Y-%m-%d"), datatype=rdflib.XSD.date)))
+dtstr = last_date.strftime("%Y-%m-%d")
+cs = rdflib.BNode("_:cs%s" % dtstr)
+g.add((cs, rdflib.RDF["type"], JITIS["CodeSet"]))
+g.add((cs, rdflib.namespace.DCTERMS["issue"], rdflib.Literal(dtstr, datatype=rdflib.XSD.date)))
 
 
 # In[11]:
@@ -240,7 +242,7 @@ for c in x["団体コード"].apply(get_code):
 # In[12]:
 
 with open("code.ttl", "wb") as f:
-    f.write(g.serialize(format="turtle"))
+    g.serialize(destination=f, format="turtle")
 
 
 # In[ ]:
