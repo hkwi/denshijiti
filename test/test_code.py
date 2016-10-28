@@ -8,4 +8,7 @@ class TestCode(unittest.TestCase):
 	def test_code(self):
 		denshijiti.run_code()
 		if "TRAVIS_BUILD_DIR" in os.environ:
-			shutil.copy("code.ttl", os.environ["TRAVIS_BUILD_DIR"])
+			try:
+				shutil.copy("code.ttl", os.environ["TRAVIS_BUILD_DIR"])
+			except shutil.SameFileError:
+				pass
