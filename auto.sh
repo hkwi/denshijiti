@@ -18,5 +18,6 @@ git config user.email "hiroaki.kawai@gmail.com"
 
 git checkout -- .
 cp $TRAVIS_BUILD_DIR/code.ttl docs/
-git commit -m "auto" docs/code.ttl
+git add docs/code.ttl
+git commit -m "auto"
 git push "https://hkwi:${GH_TOKEN}@github.com/hkwi/denshijiti.git" master:master > /dev/null 2>&1
