@@ -15,6 +15,7 @@ import rdflib
 import math
 import os.path
 import urllib.parse
+import jaconv
 
 
 # e-stat「標準地域コード」を取り込む。http://data.e-stat.go.jp/lodw/rdfschema/downloadfile/
@@ -187,6 +188,11 @@ for ri, r in t.sort_values(["date","cid"]).iterrows():
         except:
             raise Exception(r.to_csv())
     if code and code_id:
+        t = "SELECT ?n WHERE { <%s> <%s> ?n . }"
+        for p in (rdflib.namespace.RDFS["label"], JITIS["kana"]):
+            for n, in g.query(t % (JITI[code_id], p)):
+                g.remove((JITI[code_id], p, n))
+        
         code_ids.append((code, code_id))
         g.add((ev, JITIS["new"], JITI[code_id]))
         g.add((JITI[code_id], rdflib.RDF["type"], JITIS["StandardAreaCode"]))
@@ -225,15 +231,27 @@ ORDER BY DESC(?s)
 '''
 
 x = pd.read_excel(clist)
-for c in x["団体コード"].apply(get_code):
+for ri,r in x.iterrows():
+    code = get_code(r["団体コード"])
     code_id = None
-    for s, in g.query(q % (JITIS, c[:5])):
+    for s, in g.query(q % (JITIS, code[:5])):
         code_id = s
         break
     if code_id is None:
-        for s, in estat.query(q % (SACS, c[:5])):
+        for s, in estat.query(q % (SACS, code[:5])):
             code_id = JITI[os.path.basename(urllib.parse.urlparse(s).path)]
             break
+        g.add((code_id, rdflib.RDF["type"], JITIS["StandardAreaCode"]))
+        g.add((code_id, rdflib.namespace.DCTERMS["identifier"], rdflib.Literal(code[:5])))
+        n = r["市区町村名\n（漢字）"]
+        if (isinstance(n,float) and math.isnan(n)) or (isinstance(n,str) and not n.strip()):
+            n = r["都道府県名\n（漢字）"]
+        g.add((code_id, rdflib.namespace.RDFS["label"], rdflib.Literal(n)))
+        # XXX: 半角カタカナを全角ひらがなに変換したい
+        n = r["市区町村名\n（カナ）"]
+        if (isinstance(n,float) and math.isnan(n)) or (isinstance(n,str) and not n.strip()):
+            n = r["都道府県名\n（カナ）"]
+        g.add((code_id, JITIS["kana"], rdflib.Literal(jaconv.kata2hira(jaconv.h2z(n)))))
     g.add((cs, rdflib.namespace.DCTERMS["hasPart"], code_id))
 
 

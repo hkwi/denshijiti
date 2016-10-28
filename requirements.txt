@@ -3,4 +3,5 @@ numpy
 rdflib
 lxml
 xlrd
+jaconv
 
