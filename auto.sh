@@ -1,7 +1,7 @@
 #!/bin/bash
 set -ev
 
-if [ "$TRAVIS_SECURE_ENV_VARS" != "true" ]
+if [ "$TRAVIS_SECURE_ENV_VARS" != "true" ]; then
 	exit 0
 fi
 if [ "$TRAVIS_BRANCH" != "master" ]; then
