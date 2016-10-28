@@ -4,3 +4,5 @@
 
 .. image:: https://travis-ci.org/hkwi/denshijiti.svg?branch=master
     :target: https://travis-ci.org/hkwi/denshijiti
+
+
