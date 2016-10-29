@@ -23616,8 +23616,7 @@ jiti:LG-C08211-19870301 a ic:コード型 ;
     ic:識別値 "2112"^^xsd:string .
 
 jiti:LG-C08211-20060101 a ic:コード型 ;
-    ic:表記 "常総市"^^xsd:string,
-        "水海道市"^^xsd:string ;
+    ic:表記 "常総市"^^xsd:string ;
     ic:識別値 "2112"^^xsd:string .
 
 jiti:LG-C08212-20041201 a ic:コード型 ;
@@ -25697,8 +25696,7 @@ jiti:LG-C15217-19990331 a ic:コード型 ;
     ic:識別値 "2170"^^xsd:string .
 
 jiti:LG-C15217-20050401 a ic:コード型 ;
-    ic:表記 "妙高市"^^xsd:string,
-        "新井市"^^xsd:string ;
+    ic:表記 "妙高市"^^xsd:string ;
     ic:識別値 "2170"^^xsd:string .
 
 jiti:LG-C15218-19741201 a ic:コード型 ;
@@ -36211,9 +36209,7 @@ jiti:C43201-20081006 a jitis:StandardAreaCode ;
 
 jiti:C08211-20060101 a jitis:StandardAreaCode ;
     rdfs:label "常総市"@ja,
-        "水海道市"@ja,
-        "じょうそうし"@ja-Hira,
-        "みつかいどうし"@ja-Hira ;
+        "じょうそうし"@ja-Hira ;
     jitis:checkDigit "2" ;
     ic:市区町村コード jiti:LG-C08211-20060101 ;
     ic:都道府県コード jiti:LG-C08000-19700401 ;
@@ -36229,8 +36225,6 @@ jiti:C14209-20060320 a jitis:StandardAreaCode ;
 
 jiti:C15217-20050401 a jitis:StandardAreaCode ;
     rdfs:label "妙高市"@ja,
-        "新井市"@ja,
-        "あらいし"@ja-Hira,
         "みょうこうし"@ja-Hira ;
     jitis:checkDigit "0" ;
     ic:市区町村コード jiti:LG-C15217-20050401 ;
