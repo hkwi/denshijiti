@@ -169,6 +169,7 @@ for ri, r in t.sort_values(["date","cid"]).iterrows():
         g.add((ev, JITIS["old"], JITI[code_id]))
         g.add((JITI[code_id], rdflib.RDF["type"], JITIS["StandardAreaCode"]))
         g.add((JITI[code_id], rdflib.namespace.DCTERMS["identifier"], rdflib.Literal(tc[:5])))
+        g.add((JITI[code_id], JITIS["checkDigit"], rdflib.Literal(tc[5:])))
         g.add((JITI[code_id], rdflib.namespace.RDFS["label"], rdflib.Literal(r["改正前市区町村名"])))
         g.add((JITI[code_id], JITIS["kana"], rdflib.Literal(r["改正前市区町村名ふりがな"])))
     
@@ -197,6 +198,7 @@ for ri, r in t.sort_values(["date","cid"]).iterrows():
         g.add((ev, JITIS["new"], JITI[code_id]))
         g.add((JITI[code_id], rdflib.RDF["type"], JITIS["StandardAreaCode"]))
         g.add((JITI[code_id], rdflib.namespace.DCTERMS["identifier"], rdflib.Literal(code[:5])))
+        g.add((JITI[code_id], JITIS["checkDigit"], rdflib.Literal(tc[5:])))
         if r["改正後市区町村名"]=="同左":
             g.add((JITI[code_id], rdflib.namespace.RDFS["label"], rdflib.Literal(r["改正前市区町村名"])))
         else:
@@ -243,11 +245,11 @@ for ri,r in x.iterrows():
             break
         g.add((code_id, rdflib.RDF["type"], JITIS["StandardAreaCode"]))
         g.add((code_id, rdflib.namespace.DCTERMS["identifier"], rdflib.Literal(code[:5])))
+        g.add((code_id, JITIS["checkDigit"], rdflib.Literal(code[5:])))
         n = r["市区町村名\n（漢字）"]
         if (isinstance(n,float) and math.isnan(n)) or (isinstance(n,str) and not n.strip()):
             n = r["都道府県名\n（漢字）"]
         g.add((code_id, rdflib.namespace.RDFS["label"], rdflib.Literal(n)))
-        # XXX: 半角カタカナを全角ひらがなに変換したい
         n = r["市区町村名\n（カナ）"]
         if (isinstance(n,float) and math.isnan(n)) or (isinstance(n,str) and not n.strip()):
             n = r["都道府県名\n（カナ）"]
@@ -261,9 +263,4 @@ for ri,r in x.iterrows():
 
 with open("code.ttl", "wb") as f:
     g.serialize(destination=f, format="turtle")
-
-
-# In[ ]:
-
-
 
