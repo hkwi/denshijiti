@@ -255,7 +255,10 @@ for ri, r in t.sort_values(["date","cid"]).iterrows():
     if code and code_id:
         tq = "SELECT ?n WHERE { <%s> <%s> ?n . }"
         for n, in g.query(tq % (JITI[code_id], RDFS["label"])):
-            g.remove((JITI[code_id], p, n))
+            g.remove((JITI[code_id], RDFS["label"], n))
+        tq = "SELECT ?n WHERE { <%s> <%s> ?n . }"
+        for n, in g.query(tq % (JITI["LG-"+code_id], IC["表記"])):
+            g.remove((JITI["LG-"+code_id], IC["表記"], n))
         
         code_ids.append((code, code_id))
         g.add((ev, JITIS["new"], JITI[code_id]))
