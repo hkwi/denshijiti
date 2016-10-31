@@ -5,6 +5,8 @@
 [![Build Status](https://travis-ci.org/hkwi/denshijiti.svg?branch=master)](https://travis-ci.org/hkwi/denshijiti)
 
 
+注：「全国地方公共団体コード」だけでは一般的に使われる住所を組み立てることはできません。例えば `473481` 沖縄県与那原町は一般的には「沖縄県島尻郡与那原町」ですが、`jitis:group` である `473405` 島尻郡は「全国地方公共団体コード」には登録されていません。代わりに「統計に用いる地域標準コード」などが使えます。
+
 # 例
 
 ```

@@ -224,6 +224,38 @@ class Code(object):
                     g.add((self.sac, IC["都道府県"], n))
                     break
 
+        sub = int(self.code[2:])
+        if self.code[2:] == "000":
+            g.add((self.sac, JITIS["type"], JITIS["都道府県"]))
+        elif self.code[:3] == "131":
+            g.add((self.sac, JITIS["type"], JITIS["特別区"]))
+        elif self.code[:3] == "100":
+            g.add((self.sac, JITIS["type"], JITIS["指定都市"]))
+        elif self.code[2] == "1":
+            if name.endswith("市"):
+                g.add((self.sac, JITIS["type"], JITIS["指定都市"]))
+            else:
+                g.add((self.sac, JITIS["type"], JITIS["指定都市の区"]))
+        elif self.code[2] == "2":
+            g.add((self.sac, JITIS["type"], JITIS["市"]))
+        elif self.code[:2] == "01":
+            if sub % 30:
+                gr = "01%03d" % (sub // 30 * 30)
+                g.add((self.sac, JITIS["group"], rdflib.Literal(gr + code_checksum(gr))))
+        elif self.code[:2] == "47":
+            if 340 < sub and sub < 370:
+                gr = "47340"
+                g.add((self.sac, JITIS["group"], rdflib.Literal(gr + code_checksum(gr))))
+            elif 370 < sub and sub < 380:
+                gr = "47370"
+                g.add((self.sac, JITIS["group"], rdflib.Literal(gr + code_checksum(gr))))
+            elif sub % 20:
+                gr = "47%03d" % (sub // 20 * 20)
+                g.add((self.sac, JITIS["group"], rdflib.Literal(gr + code_checksum(gr))))
+        elif sub % 20:
+            gr = "%s%03d" % (self.code[:2], sub // 20 * 20)
+            g.add((self.sac, JITIS["group"], rdflib.Literal(gr + code_checksum(gr))))
+
 code_ids = []
 
 last_date = None

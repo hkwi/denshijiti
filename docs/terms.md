@@ -21,13 +21,15 @@ e-stat「標準地域コード」での定義と同様の、コードを示す `
 
 - `rdfs:label`
 - `jitis:code`
-- `ic:市区町村`
-- `ic:市区町村コード`
+- `ic:市区町村` optional
+- `ic:市区町村コード` optional
 - `ic:都道府県`
 - `ic:都道府県コード`
 - `dcterms:identifier`
 - `dcterms:issued`
 - `skos:closeMatch`
+- `jitis:type` optional コードによって与えられる意味を示します。
+- `jitis:group` optional 統計などで所属するグループを示します。
 
 # CodeChangeEvent
 
@@ -38,6 +40,26 @@ e-stat「標準地域コード」での定義と同様の、コードを示す `
 - `jitis:new` 改正後の `jitis:StandardAreaCode`
 - `jitis:old` 改正前の `jitis:StandardAreaCode`
 - `dcterms:issued` 改正日
+
+# 都道府県
+
+- `jitis:type` で指示される、コードの意味です。
+
+# 指定都市
+
+- `jitis:type` で指示される、コードの意味です。
+
+# 特別区
+
+- `jitis:type` で指示される、コードの意味です。
+
+# 指定都市の区
+
+- `jitis:type` で指示される、コードの意味です。
+
+# 市
+
+- `jitis:type` で指示される、コードの意味です。
 
 # code
 
