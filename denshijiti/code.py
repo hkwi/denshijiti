@@ -215,27 +215,27 @@ class Code(object):
         g.add((self.sac, RDFS["label"], rdflib.Literal(name, lang="ja")))
         g.add((self.sac, RDFS["label"], rdflib.Literal(kana, lang="ja-hrkt")))
         
-        if self.code[2:] == "000":
-            g.add((self.sac, IC["都道府県"], rdflib.Literal(name, lang="ja")))
-        else:
-            g.add((self.sac, IC["市区町村"], rdflib.Literal(name, lang="ja")))
-            for s,n,d in sacq(self.code[:2]+"000"):
-                if d.value <= self.ymd:
-                    g.add((self.sac, IC["都道府県"], n))
-                    break
-
+        ku = None
         sub = int(self.code[2:])
         if self.code[2:] == "000":
             g.add((self.sac, JITIS["type"], JITIS["都道府県"]))
         elif self.code[:3] == "131":
             g.add((self.sac, JITIS["type"], JITIS["特別区"]))
-        elif self.code[:3] == "100":
+        elif self.code[2:] == "100":
             g.add((self.sac, JITIS["type"], JITIS["指定都市"]))
         elif self.code[2] == "1":
             if name.endswith("市"):
                 g.add((self.sac, JITIS["type"], JITIS["指定都市"]))
             else:
                 g.add((self.sac, JITIS["type"], JITIS["指定都市の区"]))
+                for i in range(sub // 10 * 10, 90, -10):
+                    if ku:
+                        break
+                    for s,n,d in sacq("%s%03d" % (self.code[:2], i)):
+                        if d.value <= self.ymd:
+                            if n.endswith("市"):
+                                ku = n
+                                break
         elif self.code[2] == "2":
             g.add((self.sac, JITIS["type"], JITIS["市"]))
         elif self.code[:2] == "01":
@@ -255,6 +255,19 @@ class Code(object):
         elif sub % 20:
             gr = "%s%03d" % (self.code[:2], sub // 20 * 20)
             g.add((self.sac, JITIS["group"], rdflib.Literal(gr + code_checksum(gr))))
+
+        if self.code[2:] == "000":
+            g.add((self.sac, IC["都道府県"], rdflib.Literal(name, lang="ja")))
+        else:
+            if ku:
+                g.add((self.sac, IC["市区町村"], ku))
+                g.add((self.sac, IC["区"], rdflib.Literal(name, lang="ja")))
+            else:
+                g.add((self.sac, IC["市区町村"], rdflib.Literal(name, lang="ja")))
+            for s,n,d in sacq(self.code[:2]+"000"):
+                if d.value <= self.ymd:
+                    g.add((self.sac, IC["都道府県"], n))
+                    break
 
 code_ids = []
 
