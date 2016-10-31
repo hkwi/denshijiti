@@ -209,6 +209,8 @@ class Code(object):
     def set_name(self, name, kana):
         assert name != "同左"
         assert kana != "同左"
+        name = name.strip()
+        kana = kana.strip()
         # e-Stat LOD 準拠
         g.add((self.sac, RDFS["label"], rdflib.Literal(name, lang="ja")))
         g.add((self.sac, RDFS["label"], rdflib.Literal(kana, lang="ja-hrkt")))
@@ -284,6 +286,9 @@ for ri, r in t.sort_values(["date","cid"]).iterrows():
         kana = r["改正後市区町村名ふりがな"]
         if isinstance(kana, float) or kana.strip()=="同左":
             kana = r["改正前市区町村名ふりがな"]
+            # errata in xls row 1319
+            if isinstance(kana, float) and name=="西海市":
+                kana = "さいかいし"
         
         Code.singleton(code_id).set_name(name, kana)
 
