@@ -20,11 +20,13 @@ import jaconv
 
 # In[2]:
 
-from rdflib.namespace import RDF, RDFS, DCTERMS
+from rdflib.namespace import RDF, RDFS, DCTERMS, XSD, SKOS
+SAC = rdflib.Namespace("http://data.e-stat.go.jp/lod/sac/")
 SACS = rdflib.Namespace("http://data.e-stat.go.jp/lod/terms/sacs#")
 JITI = rdflib.Namespace("http://hkwi.github.com/denshijiti/#")
 JITIS = rdflib.Namespace("http://hkwi.github.com/denshijiti/terms#")
 IC = rdflib.Namespace("http://imi.ipa.go.jp/ns/core/rdf#")
+ICE = rdflib.Namespace("http://hkwi.github.com/denshijiti/ice#") # ic entitiess
 
 
 # e-stat「標準地域コード」を取り込む。http://data.e-stat.go.jp/lodw/rdfschema/downloadfile/
@@ -128,6 +130,8 @@ for i in range(cid):
 
 g = rdflib.Graph()
 g.bind("ic", IC)
+g.bind("sac", SAC)
+g.bind("skos", SKOS)
 g.bind("jiti", JITI)
 g.bind("jitis", JITIS)
 g.bind("dcterms", DCTERMS)
@@ -151,60 +155,73 @@ def get_code_id(url_like):
     assert m, "code_id %s format error" % url_like
     return m.group(0)
 
+def sacq(code5):
+    return estat.query('''
+    PREFIX dcterms: <http://purl.org/dc/terms/>
+    PREFIX sacs: <http://data.e-stat.go.jp/lod/terms/sacs#>
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    SELECT ?s ?n ?d WHERE {
+        ?s a sacs:StandardAreaCode ;
+            rdfs:label ?n ;
+            dcterms:identifier "%s" ;
+            dcterms:issued ?d .
+        FILTER ( LANG(?n) = "ja" )
+    }
+    ORDER BY DESC(?d)
+    ''' % code5)
+
 class Code(object):
+    codes = {}
+    @classmethod
+    def singleton(cls, code_id):
+        obj = cls.codes.get(code_id)
+        if obj is None:
+            cls.codes[code_id] = obj = cls(code_id)
+        return obj
+    
     def __init__(self, code_id):
         m = re.match(r"C(?P<code>\d{5})-(?P<ymd>\d{8})$", code_id)
         assert m, "code %s format error" % code_id
         self.code = m.group("code")
         self.csum = code_checksum(self.code)
+        self.ymd = datetime.datetime.strptime(m.group("ymd"), "%Y%m%d").date()
         
-        # e-Stat LOD 準拠
+        # e-Stat LOD ベースで採番する
         self.sac = JITI[code_id]
         g.add((self.sac, RDF["type"], JITIS["StandardAreaCode"]))
+        g.add((self.sac, SKOS["closeMatch"], SAC[code_id]))
         g.add((self.sac, DCTERMS["identifier"], rdflib.Literal(self.code)))
-        g.add((self.sac, JITIS["checkDigit"], rdflib.Literal(self.csum)))
+        g.add((self.sac, DCTERMS["issued"], rdflib.Literal(self.ymd.strftime("%Y-%m-%d"), datatype=XSD.date)))
+        # 6桁コードでリンクできるようにする
+        g.add((self.sac, JITIS["code"], rdflib.Literal(self.code+self.csum)))
         
-        # 共通語彙基盤 住所IEP
-        self.ic = JITI["LG-%s" % code_id]
-        g.add((self.ic, RDF.type, IC["コード型"]))
-        if self.code[2:] == "000":
-            g.add((self.ic, IC["識別値"], rdflib.Literal(self.code[:2], datatype=rdflib.XSD.string)))
-            g.add((self.sac, IC["都道府県コード"], self.ic))
-        else:
-            g.add((self.ic, IC["識別値"], rdflib.Literal(self.code[2:]+self.csum, datatype=rdflib.XSD.string)))
-            g.add((self.sac, IC["市区町村コード"], self.ic))
-            
-            q = '''
-            PREFIX dcterms: <http://purl.org/dc/terms/>
-            SELECT ?s WHERE {
-                ?s a sacs:StandardAreaCode ;
-                   dcterms:identifier "%s000" ;
-                   dcterms:issued ?d .
-            }
-            ORDER BY DESC(?d) LIMIT 1
-            ''' % self.code[:2]
-            for s, in estat.query(q):
-                pid = get_code_id(s)
-                g.add((self.sac, IC["都道府県コード"], JITI["LG-%s" % pid]))
+        # 共通語彙基盤 住所IEP : 現状は blank node での出力を強制する
+        pref = rdflib.BNode()
+        g.add((pref, RDF.type, IC["コード型"]))
+        g.add((pref, IC["識別値"], rdflib.Literal(self.code[:2], datatype=XSD.string)))
+        g.add((self.sac, IC["都道府県コード"], pref))
+        
+        ward = rdflib.BNode()
+        g.add((ward, RDF.type, IC["コード型"]))
+        g.add((ward, IC["識別値"], rdflib.Literal(self.code[2:]+self.csum, datatype=XSD.string)))
+        g.add((self.sac, IC["市区町村コード"], ward))
 
     def set_name(self, name, kana):
         assert name != "同左"
         assert kana != "同左"
-        g.add((self.ic, IC["表記"], rdflib.Literal(name, datatype=rdflib.XSD.string)))
         # e-Stat LOD 準拠
         g.add((self.sac, RDFS["label"], rdflib.Literal(name, lang="ja")))
-        g.add((self.sac, RDFS["label"], rdflib.Literal(kana, lang="ja-Hira")))
+        g.add((self.sac, RDFS["label"], rdflib.Literal(kana, lang="ja-hrkt")))
+        
+        if self.code[2:] == "000":
+            g.add((self.sac, IC["都道府県"], rdflib.Literal(name, lang="ja")))
+        else:
+            g.add((self.sac, IC["市区町村"], rdflib.Literal(name, lang="ja")))
+            for s,n,d in sacq(self.code[:2]+"000"):
+                if d.value <= self.ymd:
+                    g.add((self.sac, IC["都道府県"], n))
+                    break
 
-q = '''
-PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX sacs: <http://data.e-stat.go.jp/lod/terms/sacs#>
-SELECT ?s ?d WHERE {
-  ?s a sacs:StandardAreaCode ;
-     dcterms:identifier "%s" ;
-     dcterms:issued ?d .
-}
-ORDER BY DESC(?d)
-'''
 code_ids = []
 
 last_date = None
@@ -218,7 +235,7 @@ for ri, r in t.sort_values(["date","cid"]).iterrows():
         dtstr = r["date"].strftime("%Y-%m-%d")
         ev = rdflib.BNode("_:ev%s-%02d" % (dtstr,cid))
         g.add((ev, RDF["type"], JITIS["CodeChangeEvent"]))
-        g.add((ev, DCTERMS["issue"], rdflib.Literal(dtstr, datatype=rdflib.XSD.date)))
+        g.add((ev, DCTERMS["issued"], rdflib.Literal(dtstr, datatype=XSD.date)))
         cid = r["cid"]
     
     if not math.isnan(r["改正前コード"]):
@@ -226,15 +243,15 @@ for ri, r in t.sort_values(["date","cid"]).iterrows():
         cids = [cid for c,cid in code_ids if c==tc]
         code_id = None
         if cids:
-            code_id = cids[0]
+            code_id = cids[-1]
         else:
-            for s,d in estat.query(q % tc[:5]):
+            for s,n,d in sacq(tc[:5]):
                 if d.value < r["date"]:
                     code_id = get_code_id(s)
                     break
         assert code_id
         g.add((ev, JITIS["old"], JITI[code_id]))
-        Code(code_id).set_name(r["改正前市区町村名"], r["改正前市区町村名ふりがな"])
+        Code.singleton(code_id).set_name(r["改正前市区町村名"], r["改正前市区町村名ふりがな"])
     
     code = None
     code_id = None
@@ -256,9 +273,6 @@ for ri, r in t.sort_values(["date","cid"]).iterrows():
         tq = "SELECT ?n WHERE { <%s> <%s> ?n . }"
         for n, in g.query(tq % (JITI[code_id], RDFS["label"])):
             g.remove((JITI[code_id], RDFS["label"], n))
-        tq = "SELECT ?n WHERE { <%s> <%s> ?n . }"
-        for n, in g.query(tq % (JITI["LG-"+code_id], IC["表記"])):
-            g.remove((JITI["LG-"+code_id], IC["表記"], n))
         
         code_ids.append((code, code_id))
         g.add((ev, JITIS["new"], JITI[code_id]))
@@ -271,30 +285,25 @@ for ri, r in t.sort_values(["date","cid"]).iterrows():
         if isinstance(kana, float) or kana.strip()=="同左":
             kana = r["改正前市区町村名ふりがな"]
         
-        Code(code_id).set_name(name, kana)
+        Code.singleton(code_id).set_name(name, kana)
 
 
 # コードセットの登録。
 
 # In[11]:
 
-dtstr = last_date.strftime("%Y-%m-%d")
-cs = rdflib.BNode("_:cs%s" % dtstr)
-g.add((cs, rdflib.RDF["type"], JITIS["CodeSet"]))
-g.add((cs, DCTERMS["issue"], rdflib.Literal(dtstr, datatype=rdflib.XSD.date)))
-
-
-# In[12]:
-
 q = '''
 PREFIX sacs: <%s>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 SELECT ?s WHERE {
   ?s a sacs:StandardAreaCode ;
-     dcterms:identifier "%s" .
+     dcterms:identifier "%s" ;
+     dcterms:issued ?d .
 }
 ORDER BY DESC(?s)
 '''
+
+cs = []
 
 x = pd.read_excel(clist)
 for ri,r in x.iterrows():
@@ -317,20 +326,96 @@ for ri,r in x.iterrows():
         if isinstance(kana, float) or not kana.strip():
             kana = r["都道府県名\n（カナ）"]
         
-        Code(code_id).set_name(name, jaconv.kata2hira(jaconv.h2z(kana)))
+        assert code_id, code
+        Code.singleton(code_id).set_name(name, jaconv.kata2hira(jaconv.h2z(kana)))
     
     assert code_id, code
-    g.add((cs, DCTERMS["hasPart"], JITI[code_id]))
+    cs.append(code_id)
+
+x = pd.read_excel(clist, sheetname=1, header=None)
+for ri,r in x.iterrows():
+    code = get_code(r[0])
+    code_id = None
+    for s, in g.query(q % (JITIS, code[:5])):
+        code_id = get_code_id(s)
+        break
+    
+    if code_id is None:
+        # 「札幌市中央区」などが入っている。
+        # e-Stat では「中央区」が使われていて、揃えるために estat の値を引く
+        #name = r[1]
+        #kana = r[2]
+        name = kana = None
+        for s, in estat.query(q % (SACS, code[:5])):
+            code_id = get_code_id(s)
+            for n, in estat.query('''
+                    SELECT ?n WHERE {
+                        <%s> rdfs:label ?n
+                    }''' % s):
+                if n.language=="ja":
+                    name = n
+                elif n.language=="ja-hrkt":
+                    kana = n
+        
+        Code.singleton(code_id).set_name(name, jaconv.kata2hira(jaconv.h2z(kana)))
+    
+    assert code_id, code
+    cs.append(code_id)
+
+
+# 過去履歴を逆向きに遡ってコードセットを登録する。
+
+# In[12]:
+
+date = last_date
+b = JITI["CS-" + date.strftime("%Y-%m-%d")]
+g.add((b, rdflib.RDF["type"], JITIS["CodeSet"]))
+g.add((b, DCTERMS["issued"], rdflib.Literal(dtstr, datatype=XSD.date)))
+for c in cs:
+    g.add((b, DCTERMS["hasPart"], JITI[c]))
+
+dts = g.query('''
+SELECT DISTINCT ?d WHERE {
+    ?s a jitis:CodeChangeEvent ;
+        dcterms:issued ?d .
+}
+ORDER BY DESC(?d)
+''')
+for dt, in dts:
+    if dt.value < date: # 履歴と一覧が同期していないときのための安全
+        dtstr = date.strftime("%Y-%m-%d")
+        b = JITI["CS-" + dtstr]
+        g.add((b, rdflib.RDF["type"], JITIS["CodeSet"]))
+        g.add((b, DCTERMS["issued"], rdflib.Literal(dtstr, datatype=XSD.date)))
+        for c in cs:
+            g.add((b, DCTERMS["hasPart"], JITI[c]))
+    date = dt.value
+    
+    for old, in g.query('''
+        SELECT ?v WHERE {
+            ?s a jitis:CodeChangeEvent ;
+                dcterms:issued "%s"^^xsd:date ;
+                jitis:old ?v .
+        }
+        ''' % dt):
+        code_id = get_code_id(old)
+        cs.append(code_id)
+
+    for new, in g.query('''
+        SELECT ?v WHERE {
+            ?s a jitis:CodeChangeEvent ;
+                dcterms:issued "%s"^^xsd:date ;
+                jitis:new ?v .
+        }
+        ''' % dt):
+        code_id = get_code_id(new)
+        try:
+            cs.remove(code_id)
+        except:
+            raise Exception(code_id)
 
 
 # In[13]:
-
-list(g.query(q% (JITIS, "01206")))
-
-
-# 過去履歴を逆向きに遡ってコードセットを登録してもよい。
-
-# In[14]:
 
 with open("code.ttl", "wb") as f:
     g.serialize(destination=f, format="turtle")
