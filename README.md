@@ -1,6 +1,8 @@
-総務省「全国地方公共団体コード」を RDF 化します。
+総務省「全国地方公共団体コード」を RDF 化します。[ウェブサイト](http://www.soumu.go.jp/denshijiti/code.html)と[カタログサイト](http://www.data.go.jp/data/dataset/soumu_20140909_0395)に掲載のあるデータを使っています。
 
 自動ビルドしていて、[最新版](https://hkwi.github.io/denshijiti/code.ttl)がダウンロードできます。
+
+またビルドにあたっては、[e-stat 統計 LOD](http://data.e-stat.go.jp/lodw/data/) のデータを活用しています。
 
 [![Build Status](https://travis-ci.org/hkwi/denshijiti.svg?branch=master)](https://travis-ci.org/hkwi/denshijiti)
 
@@ -32,3 +34,6 @@ ORDER BY ASC(?c)
 '''):
 	print(c,n)
 ```
+
+# License
+プログラムは Apache 2.0 ライセンス、データは CC-BY ライセンスにします。
