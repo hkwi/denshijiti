@@ -1,5 +1,9 @@
 RDF で使われる語彙は次のようになっている。
 
+```
+PREFIX jitis: <http://hkwi.github.com/denshijiti/terms#>
+```
+
 # CodeSet
 
 ある時点でのコード一覧を示す `rdfs:Class` です。
