@@ -35,5 +35,13 @@ ORDER BY ASC(?c)
 	print(c,n)
 ```
 
+# Code Snippet
+
+コードの検査数字（チェックサム）は次のコードで計算できる（JIS X 0401）。
+
+```
+lambda code: str(11-sum([int(a)*b for a,b in zip(code, range(6,1,-2))])%11)[-1]
+```
+
 # License
 プログラムは Apache 2.0 ライセンス、データは CC-BY ライセンスにします。
