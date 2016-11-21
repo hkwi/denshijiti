@@ -40,7 +40,7 @@ ORDER BY ASC(?c)
 コードの検査数字（チェックサム）は次のコードで計算できる（JIS X 0401）。
 
 ```
-lambda code: str(11-sum([int(a)*b for a,b in zip(code, range(6,1,-2))])%11)[-1]
+lambda code: str(11-sum([int(a)*b for a,b in zip(code, range(6,1,-1))])%11)[-1]
 ```
 
 # License
