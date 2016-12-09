@@ -25,8 +25,7 @@ SAC = rdflib.Namespace("http://data.e-stat.go.jp/lod/sac/")
 SACS = rdflib.Namespace("http://data.e-stat.go.jp/lod/terms/sacs#")
 JITI = rdflib.Namespace("http://hkwi.github.com/denshijiti/#")
 JITIS = rdflib.Namespace("http://hkwi.github.com/denshijiti/terms#")
-IC = rdflib.Namespace("http://imi.ipa.go.jp/ns/core/rdf#")
-ICE = rdflib.Namespace("http://hkwi.github.com/denshijiti/ice#") # ic entitiess
+IC = rdflib.Namespace("http://imi.go.jp/ns/core/rdf#")
 
 
 # e-stat「標準地域コード」を取り込む。http://data.e-stat.go.jp/lodw/rdfschema/downloadfile/
@@ -317,9 +316,8 @@ for ri, r in t.sort_values(["date","cid"]).iterrows():
             raise Exception(r.to_csv())
     
     if code and code_id:
-        tq = "SELECT ?n WHERE { <%s> <%s> ?n . }"
-        for n, in g.query(tq % (JITI[code_id], RDFS["label"])):
-            g.remove((JITI[code_id], RDFS["label"], n))
+        for t in g.triples((JITI[code_id], RDFS["label"], None)):
+            g.remove(t)
         
         code_ids.append((code, code_id))
         g.add((ev, JITIS["new"], JITI[code_id]))
@@ -342,29 +340,29 @@ for ri, r in t.sort_values(["date","cid"]).iterrows():
 
 # In[11]:
 
-q = '''
-PREFIX sacs: <%s>
+cs = []
+
+pq = '''
 PREFIX dcterms: <http://purl.org/dc/terms/>
 SELECT ?s WHERE {
-  ?s a sacs:StandardAreaCode ;
+  ?s a <%s> ;
      dcterms:identifier "%s" ;
      dcterms:issued ?d .
 }
-ORDER BY DESC(?s)
+ORDER BY DESC(?d)
 '''
-
-cs = []
 
 x = pd.read_excel(clist)
 for ri,r in x.iterrows():
     code = get_code(r["団体コード"])
+    ident = rdflib.Literal(code[:5])
     code_id = None
-    for s, in g.query(q % (JITIS, code[:5])):
+    for s, in g.query(pq % (JITIS["StandardAreaCode"], ident)):
         code_id = get_code_id(s)
         break
     
     if code_id is None:
-        for s, in estat.query(q % (SACS, code[:5])):
+        for s, in estat.query(pq % (SACS["StandardAreaCode"], ident)):
             code_id = get_code_id(s)
             break
         
@@ -385,8 +383,9 @@ for ri,r in x.iterrows():
 x = pd.read_excel(clist, sheetname=1, header=None)
 for ri,r in x.iterrows():
     code = get_code(r[0])
+    ident = rdflib.Literal(code[:5])
     code_id = None
-    for s, in g.query(q % (JITIS, code[:5])):
+    for s, in g.query(pq % (JITIS["StandardAreaCode"], ident)):
         code_id = get_code_id(s)
         break
     
@@ -396,12 +395,9 @@ for ri,r in x.iterrows():
         #name = r[1]
         #kana = r[2]
         name = kana = None
-        for s, in estat.query(q % (SACS, code[:5])):
+        for s, in estat.query(pq % (SACS["StandardAreaCode"], ident)):
             code_id = get_code_id(s)
-            for n, in estat.query('''
-                    SELECT ?n WHERE {
-                        <%s> rdfs:label ?n
-                    }''' % s):
+            for n in estat.objects(s, RDFS["label"]):
                 if n.language=="ja":
                     name = n
                 elif n.language=="ja-hrkt":
@@ -424,7 +420,22 @@ g.add((b, DCTERMS["issued"], rdflib.Literal(dtstr, datatype=XSD.date)))
 for c in cs:
     g.add((b, DCTERMS["hasPart"], JITI[c]))
 
+    
+pq = '''
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX jitis: <http://hkwi.github.com/denshijiti/terms#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+SELECT ?v WHERE {
+    ?s a jitis:CodeChangeEvent ;
+        dcterms:issued "%s"^^xsd:date ;
+        <%s> ?v .
+}
+'''
+
 dts = g.query('''
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX jitis: <http://hkwi.github.com/denshijiti/terms#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
 SELECT DISTINCT ?d WHERE {
     ?s a jitis:CodeChangeEvent ;
         dcterms:issued ?d .
@@ -441,23 +452,11 @@ for dt, in dts:
             g.add((b, DCTERMS["hasPart"], JITI[c]))
     date = dt.value
     
-    for old, in g.query('''
-        SELECT ?v WHERE {
-            ?s a jitis:CodeChangeEvent ;
-                dcterms:issued "%s"^^xsd:date ;
-                jitis:old ?v .
-        }
-        ''' % dt):
+    for old, in g.query(pq % (JITIS["old"], dt.value.strftime("%Y-%m-%d"))):
         code_id = get_code_id(old)
         cs.append(code_id)
 
-    for new, in g.query('''
-        SELECT ?v WHERE {
-            ?s a jitis:CodeChangeEvent ;
-                dcterms:issued "%s"^^xsd:date ;
-                jitis:new ?v .
-        }
-        ''' % dt):
+    for new, in g.query(pq % (JITIS["new"], dt.value.strftime("%Y-%m-%d"))):
         code_id = get_code_id(new)
         try:
             cs.remove(code_id)
