@@ -380,7 +380,7 @@ for ri,r in x.iterrows():
     assert code_id, code
     cs.append(code_id)
 
-x = pd.read_excel(clist, sheetname=1, header=None)
+x = pd.read_excel(clist, sheet_name=1, header=None)
 for ri,r in x.iterrows():
     code = get_code(r[0])
     ident = rdflib.Literal(code[:5])
