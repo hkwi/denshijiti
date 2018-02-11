@@ -5,6 +5,7 @@
 
 # In[1]:
 
+
 import pandas as pd
 import numpy as np
 import rdflib
@@ -16,9 +17,11 @@ import math
 import os.path
 import urllib.parse
 import jaconv
+from distutils.version import LooseVersion
 
 
 # In[2]:
+
 
 from rdflib.namespace import RDF, RDFS, DCTERMS, XSD, SKOS
 SAC = rdflib.Namespace("http://data.e-stat.go.jp/lod/sac/")
@@ -32,6 +35,7 @@ IC = rdflib.Namespace("http://imi.go.jp/ns/core/rdf#")
 
 # In[3]:
 
+
 estat = rdflib.Graph()
 estat.load("http://data.e-stat.go.jp/lodw/download/rdfschema/StandardAreaCode.ttl", format="turtle")
 
@@ -40,12 +44,15 @@ estat.load("http://data.e-stat.go.jp/lodw/download/rdfschema/StandardAreaCode.tt
 
 # In[4]:
 
+
 p = lxml.html.parse("http://www.soumu.go.jp/denshijiti/code.html")
 r = p.getroot()
 r.make_links_absolute()
 for h in r.xpath("//h3"):
     if h.text.find("都道府県コード") >= 0:
         for l in h.xpath("following-sibling::node()//li"):
+            if not l.text or l.text.find("都道府県") < 0:
+                continue
             if l.text.find("改正一覧") >= 0:
                 for a in l.xpath("self::node()//a/@href"):
                     if a.lower().endswith(".xls"):
@@ -62,6 +69,7 @@ for h in r.xpath("//h3"):
 
 # In[5]:
 
+
 x = pd.read_excel(clist_hist, skiprows=1, header=[0,1,2])
 x.columns=[
     "a","b","c","都道府県名",
@@ -74,6 +82,7 @@ x.index = range(len(x.index))
 
 
 # In[6]:
+
 
 asub = x["改正前市区町村名"].str.extract(r"^[\(（](.*)[\)）]$", expand=False)
 bsub = x["改正後市区町村名"].str.extract(r"^[\(（](.*)[\)）]$", expand=False)
@@ -89,6 +98,7 @@ x2.index = range(len(x2.index))
 
 # In[7]:
 
+
 for ri,r in x2.iterrows():
     for ci,c in r.iteritems():
         if c=="〃":
@@ -96,6 +106,7 @@ for ri,r in x2.iterrows():
 
 
 # In[8]:
+
 
 cids = []
 cid = 0
@@ -107,6 +118,7 @@ for ri, r in x2.iterrows():
 
 
 # In[9]:
+
 
 dts = []
 t = pd.concat([x2, pd.Series(cids, name="cid"), pd.Series(None, name="date")], axis=1)
@@ -126,6 +138,7 @@ for i in range(cid):
 
 
 # In[10]:
+
 
 g = rdflib.Graph()
 g.bind("ic", IC)
@@ -340,6 +353,7 @@ for ri, r in t.sort_values(["date","cid"]).iterrows():
 
 # In[11]:
 
+
 cs = []
 
 pq = '''
@@ -380,7 +394,11 @@ for ri,r in x.iterrows():
     assert code_id, code
     cs.append(code_id)
 
-x = pd.read_excel(clist, sheet_name=1, header=None)
+if LooseVersion(pd.__version__) >= LooseVersion("0.21.0"):
+    x = pd.read_excel(clist, sheet_name=1, header=1)
+else:
+    x = pd.read_excel(clist, sheetname=1, header=1)
+
 for ri,r in x.iterrows():
     code = get_code(r[0])
     ident = rdflib.Literal(code[:5])
@@ -412,6 +430,7 @@ for ri,r in x.iterrows():
 # 過去履歴を逆向きに遡ってコードセットを登録する。
 
 # In[12]:
+
 
 date = last_date
 b = JITI["CS-" + date.strftime("%Y-%m-%d")]
@@ -465,6 +484,7 @@ for dt, in dts:
 
 
 # In[13]:
+
 
 with open("code.ttl", "wb") as f:
     g.serialize(destination=f, format="turtle")
