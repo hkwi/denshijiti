@@ -64,6 +64,10 @@ for h in r.xpath("//h3"):
                         clist = a
                         break
 
+assert clist
+assert clist_hist
+assert clist_hist != clist
+
 
 # まず過去履歴を集める
 
@@ -395,9 +399,9 @@ for ri,r in x.iterrows():
     cs.append(code_id)
 
 if LooseVersion(pd.__version__) >= LooseVersion("0.21.0"):
-    x = pd.read_excel(clist, sheet_name=1, header=1)
+    x = pd.read_excel(clist, sheet_name=1, header=None)
 else:
-    x = pd.read_excel(clist, sheetname=1, header=1)
+    x = pd.read_excel(clist, sheetname=1, header=None)
 
 for ri,r in x.iterrows():
     code = get_code(r[0])
