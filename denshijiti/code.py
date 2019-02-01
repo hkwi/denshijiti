@@ -1,4 +1,4 @@
-
+#!/usr/bin/env python
 # coding: utf-8
 
 # 「標準地域コード」の助けを借りつつ、「全国地方公共団体コード」の RDF を生成する。
@@ -75,8 +75,15 @@ assert clist_hist != clist
 
 
 x = pd.read_excel(clist_hist, skiprows=1, header=[0,1,2])
-x.columns=[
-    "a","b","c","都道府県名",
+x=pd.read_excel("http://www.soumu.go.jp/main_content/000562731.xls", skiprows=1, header=[0,1,2])
+def offset():
+    for i,c in enumerate(x.columns):
+        for j,e in enumerate(c):
+            if "都道府県" in e:
+                return i,j
+
+x.columns=["a","b","c","d","e"][:offset()[0]] + [
+    "都道府県名",
     "改正前コード","改正前市区町村名","改正前市区町村名ふりがな",
     "改正区分","改正年月日",
     "改正後コード","改正後市区町村名","改正後市区町村名ふりがな",
