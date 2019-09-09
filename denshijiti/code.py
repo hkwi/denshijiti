@@ -45,6 +45,7 @@ estat.load("http://data.e-stat.go.jp/lodw/download/rdfschema/StandardAreaCode.tt
 # In[4]:
 
 
+# xmlns:gcse="uri:google-did-not-provide-a-real-ns"
 p = lxml.html.parse("http://www.soumu.go.jp/denshijiti/code.html")
 r = p.getroot()
 r.make_links_absolute()
@@ -75,7 +76,7 @@ assert clist_hist != clist
 
 
 x = pd.read_excel(clist_hist, skiprows=1, header=[0,1,2])
-x=pd.read_excel("http://www.soumu.go.jp/main_content/000562731.xls", skiprows=1, header=[0,1,2])
+x = pd.read_excel("http://www.soumu.go.jp/main_content/000562731.xls", skiprows=1, header=[0,1,2])
 def offset():
     for i,c in enumerate(x.columns):
         for j,e in enumerate(c):
