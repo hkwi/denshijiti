@@ -16,6 +16,7 @@ import rdflib
 import math
 import os.path
 import urllib.parse
+import urllib.request
 import jaconv
 from distutils.version import LooseVersion
 
@@ -46,7 +47,8 @@ estat.load("http://data.e-stat.go.jp/lodw/download/rdfschema/StandardAreaCode.tt
 
 
 # xmlns:gcse="uri:google-did-not-provide-a-real-ns"
-p = lxml.html.parse("http://www.soumu.go.jp/denshijiti/code.html")
+url = "http://www.soumu.go.jp/denshijiti/code.html"
+p = lxml.html.parse(urllib.request.urlopen(url), base_url=url)
 r = p.getroot()
 r.make_links_absolute()
 for h in r.xpath("//h3"):
