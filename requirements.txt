@@ -4,4 +4,4 @@ rdflib
 lxml
 xlrd
 jaconv
-
+requests
